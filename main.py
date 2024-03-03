@@ -4,21 +4,12 @@ import csv
 import numpy as np
 from datetime import datetime
 
-# def required_fields_validation(config_file, data_file):
-#     config_df = config_file
-#     required_columns = config_df[config_df['Requirement'] == 'Y']['Field Name'].tolist()
-
-#     data_df =data_file
-#     for col in required_columns:
-#         if data_df[col].isnull().values.any():
-#             return f"Error: Required field '{col}' has empty values"
-#     return "Success: All required fields have values"
-
 
 def required_fields_validation(config_file, data_file):
     config_df = config_file
     data_df = data_file
-    required_columns = config_df[config_df['Requirement'] == 'Y']['Field Name'].tolist()
+    required_columns = config_df[config_df['Requirement']
+                                 == 'Y']['Field Name'].tolist()
     missing_columns = []
     for col in required_columns:
         if col not in data_df.columns:
@@ -27,10 +18,29 @@ def required_fields_validation(config_file, data_file):
             if data_df[col].isnull().values.any():
                 missing_columns.append(
                     f"Error: Required field '{col}' has empty values")
+
     if missing_columns:
         return '\n'.join(missing_columns)
     else:
         return "Success: All required fields have values"
+
+# def required_fields_validation(config_file, data_file):
+#     config_df = config_file
+#     data_df = data_file
+#     required_columns = config_df[config_df['Requirement'] == 'Y']['Field Name'].tolist()
+#     missing_columns = []
+#     for col in required_columns:
+#         if col not in data_df.columns:
+#             missing_columns.append(col)
+#         else:
+#             if data_df[col].isnull().values.any():
+#                 missing_columns.append(
+#                     f"Error: Required field '{col}' has empty values")
+
+#     if missing_columns:
+#         return {'status': 'Error', 'detail': '\n'.join(missing_columns)}
+#     else:
+#         return {'status': 'Success', 'detail': 'All required fields have values'}
 
 
 def maximum_length_validation(config_file, csv_file):
@@ -121,6 +131,10 @@ def expected_values_validation(config_file, data_file):
         return '\n'.join(error_messages.values())
     else:
         return "Success: All values in expected columns are valid"
+    # if any('Error' in message for message in error_messages.values()):
+    #     return {'status': 'Error', 'detail': '\n'.join(error_messages.values())}
+    # else:
+    #     return {'status': 'Success', 'detail': 'All values in expected columns are valid'}
 
 
 def white_space_validation(df):
@@ -130,6 +144,12 @@ def white_space_validation(df):
     else:
         return "Success: There are no spaces in the column names."
 
+# def white_space_validation(df):
+#     invalid_columns = [col for col in df.columns if re.search(r'\s', col)]
+#     if invalid_columns:
+#         return {'status': 'Error', 'detail': f"The following column names contain spaces: {', '.join(invalid_columns)}."}
+#     else:
+#         return {'status': 'Success', 'detail': "There are no spaces in the column names."}
 
 # def duplicate_keys_validation(csv_file):
 #     df = pd.read_csv(csv_file)
@@ -145,6 +165,8 @@ def white_space_validation(df):
 #         if not duplicate_cols.empty:
 #             result += f"Duplicate columns found: {', '.join(map(str, duplicate_cols))}."
 #         return result
+
+
 def duplicate_keys_validation(csv_file):
     df = csv_file
     column_names = df.columns.tolist()
@@ -158,7 +180,18 @@ def duplicate_keys_validation(csv_file):
     else:
         return "Success: No duplicate columns found"
 
+# def duplicate_keys_validation(csv_file):
+#     df = csv_file
+#     column_names = df.columns.tolist()
+#     duplicate_columns = []
+#     for col_name in column_names:
+#         if f"{col_name}.1" in column_names:
+#             duplicate_columns.append(col_name)
 
+#     if duplicate_columns:
+#         return {'status': 'Error', 'detail': f"Duplicate columns found: {', '.join(duplicate_columns)}"}
+#     else:
+#         return {'status': 'Success', 'detail': "No duplicate columns found"}
 
 
 def column_count_validation(csv_file, csv_file2):
@@ -171,7 +204,6 @@ def column_count_validation(csv_file, csv_file2):
     return "Both files have the same number of columns"
 
 
-
 def unique_value_validation(csv_file1, csv_file2):
     df1 = csv_file1
     df2 = csv_file2
@@ -181,17 +213,23 @@ def unique_value_validation(csv_file1, csv_file2):
     else:
         return "Success : No common values found"
 
-    
+# def column_count_validation(csv_file, csv_file2):
+#     df1 = csv_file
+#     df2 = csv_file2
+#     col_count_df1 = df1.shape[1]
+#     col_count_df2 = df2.shape[1]
+#     if col_count_df1 != col_count_df2:
+#         return {'status': 'Error', 'detail': f"Number of columns in ({col_count_df1}) and ({col_count_df2}) are not equal."}
+#     return {'status': 'Success', 'detail': "Both files have the same number of columns"}
 
-def generate_csv_report(passed_features, failed_features, failed_features_details, validation_message, common_values_df, filename="test_results.csv"):
-    df = pd.DataFrame({"Feature": passed_features + failed_features, "Status": ["Passed"] * len(passed_features) + ["Failed"] * len(failed_features)})
-    df["Details"] = df["Feature"].map(lambda x: failed_features_details.get(x, ""))
-    df["Validation Message"] = validation_message
-    df = df.append(common_values_df, ignore_index=True)
-    df.to_csv(filename, index=False)
-    print(f"CSV file '{filename}' created successfully.")
-
-
+# def unique_value_validation(csv_file1, csv_file2):
+#     df1 = csv_file1
+#     df2 = csv_file2
+#     common_values = df1.merge(df2, how='inner')
+#     if not common_values.empty:
+#         return {'status': 'Error', 'detail': "Common values found"}
+#     else:
+#         return {'status': 'Success', 'detail': "No common values found"}
 
 # def unique_value_validation(csv_file1, csv_file2):
 #     df1 = pd.read_csv(csv_file1)
@@ -203,23 +241,8 @@ def generate_csv_report(passed_features, failed_features, failed_features_detail
 #     else:
 #         return "Error : Common values found", unique_values
 
-
-# config = 'configuration.csv'
-# csv_file = 'extract-new.csv'
-# csv_file2 = 'extract-old.csv'
-# results_file = 'result.csv'
-
-
-# results = []
-# results.append(['required_fields_validation', required_fields_validation(config, csv_file)])
-# results.append(['maximum_length_validation', maximum_length_validation(csv_file, config)])
-# results.append(['expected_values_validation', expected_values_validation(config, csv_file)])
-# results.append(['duplicate_keys_validation', duplicate_keys_validation(csv_file)])
-# results.append(['white_space_validation', white_space_validation(csv_file)])
-# results.append(['compare_csv_files', compare_csv_files(csv_file, csv_file2)])
-# results.append(['unique_value_validation', unique_value_validation(csv_file, csv_file2)])
-
-# with open(results_file, 'w', newline='') as file:
-#     writer = csv.writer(file)
-#     writer.writerow(['Function','Result'])
-#     writer.writerows(results)
+# def write_to_csv(feature_name, validation_result):
+#     with open('validation_result.csv', 'w', newline='') as csvfile:
+#         writer = csv.writer(csvfile)
+#         writer.writerow(['Feature Name', 'Status', 'Detail'])
+#         writer.writerow([feature_name, validation_result['status'], validation_result['detail']])

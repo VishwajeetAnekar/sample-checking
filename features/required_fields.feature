@@ -5,3 +5,4 @@ Feature: Required Fields Validation
     And a csv file
     When required fields are validated
     Then all required fields have values
+    # Then the validation result is saved to a CSV file
