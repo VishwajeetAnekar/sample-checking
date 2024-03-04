@@ -1,0 +1,13 @@
+Column Name,Data Type,Status,Details
+RESTATEMENT_FLAG,VARCHAR(1),Failed,Error: Exceeded length limit in column 'RESTATEMENT_FLAG': Yo
+RESTATEMENT_FLAG,VARCHAR(1),Failed,Error: Exceeded length limit in column 'RESTATEMENT_FLAG': Yo
+PATIENT_CONSENT_FLAG,VARCHAR(1),Failed,Error: Exceeded length limit in column 'PATIENT_CONSENT_FLAG': Y0
+RAW_SPECIALTY_PHARMACY_NAME,VARCHAR(256),Failed,Error: Column not present in data: 'RAW_SPECIALTY_PHARMACY_NAME'
+PRIMARY_PBM_NAME,VARCHAR(256),Failed,Error: Column not present in data: 'PRIMARY_PBM_NAME'
+SECONDARY_PAYER_NAME,VARCHAR(256),Failed,Error: Column not present in data: 'SECONDARY_PAYER_NAME'
+SECONDARY_PBM_NAME,VARCHAR(256),Failed,Error: Column not present in data: 'SECONDARY_PBM_NAME'
+UNIT_OF_MEASURE,VARCHAR(256),Failed,Error: Column not present in data: 'UNIT_OF_MEASURE'
+SHIP_DATE,TIMESTAMP,Failed,Error: Column not present in data: 'SHIP_DATE'
+REFERRAL_NUMBER,Not Specified,Success,
+RAW_SECONDARY_PAYER_NAME,Not Specified,Success,
+SECONDARY_PAYER_SUBTYPE,Not Specified,Success,

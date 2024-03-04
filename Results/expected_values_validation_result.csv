@@ -1,0 +1,8 @@
+Column Name,Expected Values,Status,Column Values,Empty Cell,Details
+SOURCE_CODE,"ONCO360,  ONESOURCE",Failed,"ONCO360, ONCO360, ONCO360, ONCO360, nan, ONCO360, ONCO360, ONCO360, ONCO360",1.0,Error: Column contains empty cells
+RESTATEMENT_FLAG,"Y, N",Failed,"Y, N, Yo, N, N, Yo, N, N, N",,Error: Column contains values not in expected values
+PATIENT_CONSENT_FLAG,"Y, N",Failed,"N, N, N, Y, N, Y0, N, Y, Y",,Error: Column contains values not in expected values
+PATIENT_GENDER,"M,  F,  U,  O",Failed,"nan, nan, nan, nan, nan, nan, nan, nan, nan",9.0,Error: Column contains empty cells
+PRIOR_AUTH_REQUIRED,"Y,  N",Failed,"nan, nan, nan, nan, nan, nan, nan, nan, nan",9.0,Error: Column contains empty cells
+PRIMARY_COVERAGE_TYPE,"PHARMACY,  MEDICAL,  OTHER",Failed,"nan, nan, nan, nan, nan, nan, nan, nan, nan",9.0,Error: Column contains empty cells
+SECONDARY_COVERAGE_TYPE,"PHARMACY,  MEDICAL,  OTHER",Failed,"nan, nan, nan, nan, nan, nan, nan, nan, nan",9.0,Error: Column contains empty cells

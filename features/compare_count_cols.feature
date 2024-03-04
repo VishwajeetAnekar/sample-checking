@@ -1,5 +1,5 @@
 Feature: Compare CSV files
-    Scenario: To Compare the 2 CSV files to find the count of columns
+    Scenario: Column count
         Given I have a CSV file
         And I have another CSV file
         When I compare the CSV files
