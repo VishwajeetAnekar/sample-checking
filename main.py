@@ -11,18 +11,75 @@ def column_count_validation(csv_file, csv_file2):
     col_count_df1 = df1.shape[1]
     col_count_df2 = df2.shape[1]
     if col_count_df1 != col_count_df2:
-        return f"Error: Number of columns in ({col_count_df1}) and ({col_count_df2}) are not equal."
-    return "Both files have the same number of columns"
-
+        error_message = f"Error: Number of columns in ({col_count_df1}) and ({col_count_df2}) are not equal."
+        result_df = pd.DataFrame({"No. of Columns in CSV 1": [col_count_df1],
+                                   "No. of Columns in CSV 2": [col_count_df2],
+                                   "Result": [error_message],
+                                   "Status": ["Failed"]})
+        return result_df, error_message
+    else:
+        success_message = "Both files have the same number of columns"
+        result_df = pd.DataFrame({"No. of Columns in CSV 1": [col_count_df1],
+                                   "No. of Columns in CSV 2": [col_count_df2],
+                                   "Result": [success_message],
+                                   "Status": ["Passed"]})
+        return result_df, success_message
 
 def unique_value_validation(csv_file1, csv_file2):
     df1 = csv_file1
     df2 = csv_file2
-    common_values = df1.merge(df2, how='inner')
+    
+    # Check if "PHARMACY_TRANSACTION_ID" column exists in both DataFrames
+    if "PHARMACY_TRANSACTION_ID" not in df1.columns or "PHARMACY_TRANSACTION_ID" not in df2.columns:
+        return pd.DataFrame(), "Error: 'PHARMACY_TRANSACTION_ID' column not found in one or both CSV files"
+    
+    # Compare the rest of the data based on "PHARMACY_TRANSACTION_ID" column
+    common_values = df1.merge(df2, how='inner', on='PHARMACY_TRANSACTION_ID')
     if not common_values.empty:
-        return "Error : Common values found", common_values
+        error_message = "Error: Common values found"
+        result_df = pd.DataFrame({"Result": [error_message],
+                                   "Status": ["Failed"]})
+        return result_df, error_message
     else:
-        return "Success : No common values found"
+        success_message = "Success: No common values found"
+        result_df = pd.DataFrame({"Result": [success_message],
+                                   "Status": ["Passed"]})
+        return result_df, success_message
+    
+
+# def unique_value_validation(csv_file1, csv_file2):
+#     df1 = csv_file1
+#     df2 = csv_file2
+#     common_values = df1.merge(df2, how='inner')
+#     if not common_values.empty:
+#         error_message = "Error: Common values found"
+#         result_df = pd.DataFrame({"Result": [error_message],
+#                                    "Status": ["Failed"]})
+#         return result_df, error_message
+#     else:
+#         success_message = "Success: No common values found"
+#         result_df = pd.DataFrame({"Result": [success_message],
+#                                    "Status": ["Passed"]})
+#         return result_df, success_message
+    
+# def column_count_validation(csv_file, csv_file2):
+#     df1 = csv_file
+#     df2 = csv_file2
+#     col_count_df1 = df1.shape[1]
+#     col_count_df2 = df2.shape[1]
+#     if col_count_df1 != col_count_df2:
+#         return f"Error: Number of columns in ({col_count_df1}) and ({col_count_df2}) are not equal."
+#     return "Both files have the same number of columns"
+
+
+# def unique_value_validation(csv_file1, csv_file2):
+#     df1 = csv_file1
+#     df2 = csv_file2
+#     common_values = df1.merge(df2, how='inner')
+#     if not common_values.empty:
+#         return "Error : Common values found", common_values
+#     else:
+#         return "Success : No common values found"
 
 
 def required_fields_validation(config_file, data_file):
