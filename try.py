@@ -1,69 +1,6 @@
 import pandas as pd
 import re
-import numpy as np
 from datetime import datetime
-
-
-def column_count_validation(csv_file, csv_file2):
-    df1 = csv_file
-    df2 = csv_file2
-    col_count_df1 = df1.shape[1]
-    col_count_df2 = df2.shape[1]
-    if col_count_df1 != col_count_df2:
-        error_message = f"Error: Number of columns in ({col_count_df1}) and ({col_count_df2}) are not equal."
-        result_df = pd.DataFrame({"Feature ": 'Column Count Validation',
-                                  "No. of Columns in CSV 1": [col_count_df1],
-                                   "No. of Columns in CSV 2": [col_count_df2],
-                                   "Result": [error_message],
-                                   "Status": ["Failed"]})
-        return result_df, error_message
-    else:
-        success_message = "Both files have the same number of columns"
-        result_df = pd.DataFrame({"Feature ": 'Column Count Validation',
-                                    "No. of Columns in CSV 1": [col_count_df1],
-                                    "No. of Columns in CSV 2": [col_count_df2],
-                                 "Result": [success_message],
-                                   "Status": ["Passed"]})
-        return result_df, success_message
-
-
-def unique_value_validation(csv_file1, csv_file2):
-    df1 = csv_file1
-    df2 = csv_file2
-    
-    if "PHARMACY_TRANSACTION_ID" not in df1.columns or "PHARMACY_TRANSACTION_ID" not in df2.columns:
-        return pd.DataFrame(), "Error: 'PHARMACY_TRANSACTION_ID' column not found in one or both CSV files"
-    common_ids = set(df1["PHARMACY_TRANSACTION_ID"]).intersection(df2["PHARMACY_TRANSACTION_ID"])
-
-    result_rows = []
-
-    for transaction_id in common_ids:
-        result_rows.append({'Column Name': 'PHARMACY_TRANSACTION_ID', 
-                            'Status': 'Failed', 
-                            'Repeated Value': transaction_id, 
-                            'Details': f'Transaction ID {transaction_id} is repeated in both files'})
-        
-
-    for transaction_id in df1["PHARMACY_TRANSACTION_ID"]:
-        if transaction_id not in common_ids:
-
-            result_rows.append({'Column Name': 'PHARMACY_TRANSACTION_ID', 
-                                'Status': 'Success', 
-                                'Repeated Value': transaction_id, 
-                                'Details': f'Transaction ID {transaction_id} is unique to File 1'})
-            
-    for transaction_id in df2["PHARMACY_TRANSACTION_ID"]:
-        if transaction_id not in common_ids:
-
-            result_rows.append({'Column Name': 'PHARMACY_TRANSACTION_ID', 
-                                'Status': 'Success', 
-                                'Repeated Value': transaction_id, 
-                                'Details': f'Transaction ID {transaction_id} is unique to File 2'})
-
-    result_df = pd.DataFrame(result_rows)
-
-    return result_df , "Success: No common values found"
-
 
 def required_fields_validation(config_file, data_file):
     config_df = config_file
@@ -118,7 +55,7 @@ def required_fields_validation(config_file, data_file):
                 })
 
     result_df = pd.DataFrame(missing_columns)
-    result_df = result_df[['PHARMACY_TRANSACTION_ID', 'Column Name', 'Required Field (Y/N)', 'Value','Status', 'Details']]
+    result_df = result_df[['PHARMACY_TRANSACTION_ID', 'Column Name', 'Value', 'Required Field (Y/N)', 'Status', 'Details']]
 
     validation_result = "Success: All required fields have values" if result_df['Status'].eq(
         'Success').all() else result_df.to_string(index=False)
@@ -131,15 +68,14 @@ def expected_values_validation(config_file, data_file):
     data_df = data_file
     error_messages = []
 
-    for txn_id in data_df['PHARMACY_TRANSACTION_ID'].unique():  # Loop over unique transaction IDs
+    for txn_id in data_df['PHARMACY_TRANSACTION_ID'].unique():
         txn_df = data_df[data_df['PHARMACY_TRANSACTION_ID'] == txn_id]
-        for _, config_row in config_df.iterrows():  # Loop through each row in the config
+        for _, config_row in config_df.iterrows():
             col = config_row['Field Name']
             expected_values_str = str(config_row['Expected Value/s (comma separated)']).strip('""')
             expected_values = expected_values_str.split(',') if expected_values_str.lower() != 'nan' else []
 
             if col not in txn_df.columns:
-                # Handle missing column in data file
                 error_messages.append({
                     "PHARMACY_TRANSACTION_ID": txn_id,
                     "Column Name": col,
@@ -150,10 +86,9 @@ def expected_values_validation(config_file, data_file):
                 })
                 continue
 
-            for index, row in txn_df.iterrows():  # Loop through each row within the transaction
+            for index, row in txn_df.iterrows():
                 col_value = row[col] if col in row.index else None
                 if pd.isnull(col_value) or col_value == "":
-                    # If column value is empty or NaN, mark as success
                     error_messages.append({
                         "PHARMACY_TRANSACTION_ID": txn_id,
                         "Column Name": col,
@@ -262,8 +197,6 @@ def duplicate_keys_validation(df):
 
     return result_df, validation_result
 
-
-
 def maximum_length_validation(config_file, csv_file):
     config_df = config_file
     col_dtype_map = dict(zip(config_df['Field Name'], config_df['Data Type']))
@@ -322,8 +255,6 @@ def maximum_length_validation(config_file, csv_file):
                         column_passed = False
                         all_test_cases_passed = False
                     elif len(value) != length:  
-                      
-
 
                         validation_result_list.append({
                             "PHARMACY_TRANSACTION_ID": txn_id,
@@ -442,3 +373,38 @@ def maximum_length_validation(config_file, csv_file):
         return "All test cases passed successfully", validation_result_df
     else:
         return "Some test cases failed. Please check the output for more details", validation_result_df    
+
+def merge_validation_results(*result_dfs):
+    merged_df = pd.DataFrame()
+
+    for i, (result_df, _) in enumerate(result_dfs):
+        if isinstance(result_df, pd.DataFrame) and not result_df.empty and "PHARMACY_TRANSACTION_ID" in result_df.columns:  # Check if result_df is a dataframe and contains 'PHARMACY_TRANSACTION_ID'
+            validation_name = f"Validation {i+1}"
+            result_df.columns = [f"{col} ({validation_name})" if col != "PHARMACY_TRANSACTION_ID" else col for col in result_df.columns]
+            if merged_df.empty:
+                merged_df = result_df
+            else:
+                merged_df = pd.merge(merged_df, result_df, on="PHARMACY_TRANSACTION_ID", how="outer")
+
+    return merged_df
+
+# Example usage:
+config_file = pd.read_csv("configuration.csv")
+data_file = pd.read_csv("extract-new.csv")
+
+result_required_fields = required_fields_validation(config_file, data_file)
+result_expected_values= expected_values_validation(config_file, data_file)
+result_whitespace= white_space_validation(data_file)
+result_duplicate_keys = duplicate_keys_validation(data_file)
+result_maximum_length= maximum_length_validation(config_file, data_file)
+
+merged_result = merge_validation_results(
+    result_required_fields,
+    result_expected_values,
+    result_whitespace,
+    result_duplicate_keys,
+    result_maximum_length
+)
+
+# Save the merged result to a CSV file
+merged_result.to_csv("final.csv", index=False)

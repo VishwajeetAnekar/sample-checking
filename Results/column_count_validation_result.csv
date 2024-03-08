@@ -1,2 +1,2 @@
-No. of Columns in CSV 1,No. of Columns in CSV 2,Result,Status
-103,103,Both files have the same number of columns,Passed
+Feature ,No. of Columns in CSV 1,No. of Columns in CSV 2,Result,Status
+Column Count Validation,103,103,Both files have the same number of columns,Passed

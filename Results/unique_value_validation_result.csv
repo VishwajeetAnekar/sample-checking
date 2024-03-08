@@ -1,2 +1,11 @@
-Result,Status
-Error: Common values found,Failed
+Column Name,Status,Repeated Value,Details
+PHARMACY_TRANSACTION_ID,Failed,23456,Transaction ID 23456 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,34567,Transaction ID 34567 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,90123,Transaction ID 90123 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,45678,Transaction ID 45678 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,89012,Transaction ID 89012 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,78901,Transaction ID 78901 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,56789,Transaction ID 56789 is repeated in both files
+PHARMACY_TRANSACTION_ID,Failed,12345,Transaction ID 12345 is repeated in both files
+PHARMACY_TRANSACTION_ID,Success,10,Transaction ID 10 is unique to File 1
+PHARMACY_TRANSACTION_ID,Success,2,Transaction ID 2 is unique to File 2
