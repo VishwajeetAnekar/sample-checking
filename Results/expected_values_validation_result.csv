@@ -19,7 +19,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 34567,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 34567,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 34567,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-34567,PATIENT_CONSENT_DATE,nan,Success,20231102,Success: Column value '20231102.0' is valid
+34567,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
 34567,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 34567,ACCESS_360_ID,nan,Success,445533,Success: Column value '445533' is valid
 34567,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -125,7 +125,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 78901,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 78901,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 78901,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-78901,PATIENT_CONSENT_DATE,nan,Success,20231102,Success: Column value '20231102.0' is valid
+78901,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
 78901,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 78901,ACCESS_360_ID,nan,Success,778899,Success: Column value '778899' is valid
 78901,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -231,7 +231,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 12345,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 12345,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 12345,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-12345,PATIENT_CONSENT_DATE,nan,Success,20231102,Success: Column value '20231102.0' is valid
+12345,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
 12345,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 12345,ACCESS_360_ID,nan,Success,667755,Success: Column value '667755' is valid
 12345,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -443,7 +443,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 90123,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 90123,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 90123,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-90123,PATIENT_CONSENT_DATE,nan,Success,20231102,Success: Column value '20231102.0' is valid
+90123,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
 90123,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 90123,ACCESS_360_ID,nan,Success,990011,Success: Column value '990011' is valid
 90123,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -655,7 +655,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 56789,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 56789,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 56789,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-56789,PATIENT_CONSENT_DATE,nan,Success,20231102,Success: Column value '20231102.0' is valid
+56789,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
 56789,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 56789,ACCESS_360_ID,nan,Success,556677,Success: Column value '556677' is valid
 56789,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -761,7 +761,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 89012,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 89012,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 89012,PATIENT_CONSENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-89012,PATIENT_CONSENT_DATE,nan,Success,20231104,Success: Column value '20231104.0' is valid
+89012,PATIENT_CONSENT_DATE,nan,Success,20231104.0,Success: Column value '20231104.0' is valid
 89012,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 89012,ACCESS_360_ID,nan,Success,889900,Success: Column value '889900' is valid
 89012,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
@@ -867,7 +867,7 @@ PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
 10,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
 10,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
 10,PATIENT_CONSENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-10,PATIENT_CONSENT_DATE,nan,Success,20231103,Success: Column value '20231103.0' is valid
+10,PATIENT_CONSENT_DATE,nan,Success,20231103.0,Success: Column value '20231103.0' is valid
 10,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
 10,ACCESS_360_ID,nan,Success,667788,Success: Column value '667788' is valid
 10,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
