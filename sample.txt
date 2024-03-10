@@ -1,1 +1,0 @@
-PHARMACY_TRANSACTION_ID	Column Name	Value	Required Field (Y/N)	Expected Values	Data Type	Duplicate_column 	WhiteSpace_column 	Status	Details													

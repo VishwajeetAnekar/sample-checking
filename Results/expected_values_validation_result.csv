@@ -1,955 +1,955 @@
-PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Status,Column Value,Details
-34567,TRANSACTION_DATE,nan,Success,20231117,Success: Column value '20231117' is valid
-34567,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-34567,PHARMACY_TRANSACTION_ID,nan,Success,34567,Success: Column value '34567' is valid
-34567,RESTATEMENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-34567,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-34567,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-34567,REFERRAL_DATE,nan,Success,20231106,Success: Column value '20231106' is valid
-34567,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-34567,NDC,nan,Success,310061028,Success: Column value '310061028' is valid
-34567,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-34567,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.10,Success: Column value 'D36.10' is valid
-34567,SECONDARY_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,LONGITUDINAL_PATIENT_ID,nan,Success,34567,Success: Column value '34567' is valid
-34567,PHARMACY_PATIENT_ID,nan,Success,34567,Success: Column value '34567' is valid
-34567,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-34567,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-34567,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
-34567,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-34567,ACCESS_360_ID,nan,Success,445533,Success: Column value '445533' is valid
-34567,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-34567,PATIENT_YEAR_OF_BIRTH,nan,Success,2004,Success: Column value '2004' is valid
-34567,SP_RAW_STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-34567,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,BENEFITS DELIVERED,Success: Column value 'BENEFITS DELIVERED' is valid
-34567,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-34567,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-34567,SUBSTATUS_DESCRIPTION,nan,Success,BV COMPLETE,Success: Column value 'BV COMPLETE' is valid
-34567,STATUS_DATE,nan,Success,20231117 00:00:00,Success: Column value '20231117 00:00:00' is valid
-34567,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-34567,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-34567,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_NPI,nan,Success,1407936842,Success: Column value '1407936842' is valid
-34567,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-34567,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_LAST_NAME,nan,Success,CRAIGEN,Success: Column value 'CRAIGEN' is valid
-34567,PRESCRIBER_FIRST_NAME,nan,Success,WILLIAM,Success: Column value 'WILLIAM' is valid
-34567,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_ADDRESS1,nan,Success,6701 FANNIN ST,Success: Column value '6701 FANNIN ST' is valid
-34567,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_CITY,nan,Success,HOUSTON,Success: Column value 'HOUSTON' is valid
-34567,PRESCRIBER_STATE,nan,Success,TX,Success: Column value 'TX' is valid
-34567,PRESCRIBER_ZIP,nan,Success,77030,Success: Column value '77030' is valid
-34567,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-34567,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-34567,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_NPI,nan,Success,1417446170,Success: Column value '1417446170' is valid
-34567,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-34567,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-34567,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-34567,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-34567,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-34567,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-34567,RAW_PRIMARY_PAYER_NAME,nan,Success,OPTUMRX,Success: Column value 'OPTUMRX' is valid
-34567,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-34567,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-34567,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-34567,PRIMARY_PBM_BIN,nan,Success,12833,Success: Column value '12833' is valid
-34567,PRIMARY_PBM_PCN,nan,Success,FLBC,Success: Column value 'FLBC' is valid
-34567,PRIMARY_PBM_GROUP_ID,nan,Success,99999ZAL,Success: Column value '99999ZAL' is valid
-34567,PLAN_CODE,nan,Success,7654,Success: Column value '7654' is valid
-34567,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-34567,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-34567,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-34567,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-34567,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-34567,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-34567,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-34567,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-34567,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-34567,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-34567,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-34567,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-34567,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-34567,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-78901,TRANSACTION_DATE,nan,Success,20231108,Success: Column value '20231108' is valid
-78901,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-78901,PHARMACY_TRANSACTION_ID,nan,Success,78901,Success: Column value '78901' is valid
-78901,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-78901,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-78901,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-78901,REFERRAL_DATE,nan,Success,20231104,Success: Column value '20231104' is valid
-78901,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-78901,NDC,nan,Success,310061060,Success: Column value '310061060' is valid
-78901,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-78901,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.10,Success: Column value 'D36.10' is valid
-78901,SECONDARY_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,LONGITUDINAL_PATIENT_ID,nan,Success,78901,Success: Column value '78901' is valid
-78901,PHARMACY_PATIENT_ID,nan,Success,78901,Success: Column value '78901' is valid
-78901,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-78901,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-78901,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
-78901,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-78901,ACCESS_360_ID,nan,Success,778899,Success: Column value '778899' is valid
-78901,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-78901,PATIENT_YEAR_OF_BIRTH,nan,Success,2012,Success: Column value '2012' is valid
-78901,SP_RAW_STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-78901,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,PRIOR AUTHORIZATION APPEAL STARTED,Success: Column value 'PRIOR AUTHORIZATION APPEAL STARTED' is valid
-78901,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-78901,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-78901,SUBSTATUS_DESCRIPTION,nan,Success,PA APPEAL – STARTED,Success: Column value 'PA APPEAL – STARTED' is valid
-78901,STATUS_DATE,nan,Success,20231108 00:00:00,Success: Column value '20231108 00:00:00' is valid
-78901,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-78901,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-78901,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_NPI,nan,Success,1639243090,Success: Column value '1639243090' is valid
-78901,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-78901,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_LAST_NAME,nan,Success,PLETCHER,Success: Column value 'PLETCHER' is valid
-78901,PRESCRIBER_FIRST_NAME,nan,Success,BETH,Success: Column value 'BETH' is valid
-78901,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_ADDRESS1,nan,Success,90 BERGEN ST,Success: Column value '90 BERGEN ST' is valid
-78901,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_CITY,nan,Success,NEWARK,Success: Column value 'NEWARK' is valid
-78901,PRESCRIBER_STATE,nan,Success,NJ,Success: Column value 'NJ' is valid
-78901,PRESCRIBER_ZIP,nan,Success,7103,Success: Column value '7103' is valid
-78901,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-78901,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-78901,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_NPI,nan,Success,1861935835,Success: Column value '1861935835' is valid
-78901,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-78901,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-78901,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-78901,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-78901,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-78901,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-78901,RAW_PRIMARY_PAYER_NAME,nan,Success,CIGNA,Success: Column value 'CIGNA' is valid
-78901,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-78901,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-78901,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-78901,PRIMARY_PBM_BIN,nan,Success,610239,Success: Column value '610239' is valid
-78901,PRIMARY_PBM_PCN,nan,Success,FEPRX,Success: Column value 'FEPRX' is valid
-78901,PRIMARY_PBM_GROUP_ID,nan,Success,65006500,Success: Column value '65006500' is valid
-78901,PLAN_CODE,nan,Success,9876,Success: Column value '9876' is valid
-78901,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-78901,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-78901,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-78901,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-78901,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-78901,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-78901,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-78901,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-78901,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-78901,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-78901,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-78901,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-78901,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-78901,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-12345,TRANSACTION_DATE,nan,Success,20231114,Success: Column value '20231114' is valid
-12345,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-12345,PHARMACY_TRANSACTION_ID,nan,Success,12345,Success: Column value '12345' is valid
-12345,RESTATEMENT_FLAG,"Y,N",Failed,Yo,Error: Column value 'Yo' not in expected values
-12345,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-12345,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-12345,REFERRAL_DATE,nan,Success,20231102,Success: Column value '20231102' is valid
-12345,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-12345,NDC,nan,Success,310061060,Success: Column value '310061060' is valid
-12345,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-12345,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.15,Success: Column value 'D36.15' is valid
-12345,SECONDARY_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,LONGITUDINAL_PATIENT_ID,nan,Success,12345,Success: Column value '12345' is valid
-12345,PHARMACY_PATIENT_ID,nan,Success,12345,Success: Column value '12345' is valid
-12345,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-12345,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-12345,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
-12345,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-12345,ACCESS_360_ID,nan,Success,667755,Success: Column value '667755' is valid
-12345,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-12345,PATIENT_YEAR_OF_BIRTH,nan,Success,2006,Success: Column value '2006' is valid
-12345,SP_RAW_STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-12345,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,PRIOR AUTHORIZATION APPEAL STARTED,Success: Column value 'PRIOR AUTHORIZATION APPEAL STARTED' is valid
-12345,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-12345,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-12345,SUBSTATUS_DESCRIPTION,nan,Success,PA APPEAL – STARTED,Success: Column value 'PA APPEAL – STARTED' is valid
-12345,STATUS_DATE,nan,Success,20231114 00:00:00,Success: Column value '20231114 00:00:00' is valid
-12345,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-12345,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-12345,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_NPI,nan,Success,1639243090,Success: Column value '1639243090' is valid
-12345,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-12345,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_LAST_NAME,nan,Success,PLETCHER,Success: Column value 'PLETCHER' is valid
-12345,PRESCRIBER_FIRST_NAME,nan,Success,BETH,Success: Column value 'BETH' is valid
-12345,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_ADDRESS1,nan,Success,90 BERGEN ST,Success: Column value '90 BERGEN ST' is valid
-12345,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_CITY,nan,Success,NEWARK,Success: Column value 'NEWARK' is valid
-12345,PRESCRIBER_STATE,nan,Success,NJ,Success: Column value 'NJ' is valid
-12345,PRESCRIBER_ZIP,nan,Success,7103,Success: Column value '7103' is valid
-12345,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-12345,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-12345,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_NPI,nan,Success,1679618151,Success: Column value '1679618151' is valid
-12345,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-12345,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-12345,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-12345,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-12345,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-12345,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-12345,RAW_PRIMARY_PAYER_NAME,nan,Success,CIGNA,Success: Column value 'CIGNA' is valid
-12345,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-12345,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-12345,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-12345,PRIMARY_PBM_BIN,nan,Success,610239,Success: Column value '610239' is valid
-12345,PRIMARY_PBM_PCN,nan,Success,FEPRX,Success: Column value 'FEPRX' is valid
-12345,PRIMARY_PBM_GROUP_ID,nan,Success,65006500,Success: Column value '65006500' is valid
-12345,PLAN_CODE,nan,Success,9876,Success: Column value '9876' is valid
-12345,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-12345,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-12345,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-12345,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-12345,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-12345,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-12345,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-12345,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-12345,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-12345,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-12345,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-12345,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-12345,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-12345,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-45678,TRANSACTION_DATE,nan,Success,20231105,Success: Column value '20231105' is valid
-45678,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-45678,PHARMACY_TRANSACTION_ID,nan,Success,45678,Success: Column value '45678' is valid
-45678,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-45678,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-45678,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-45678,REFERRAL_DATE,nan,Success,20231103,Success: Column value '20231103' is valid
-45678,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-45678,NDC,nan,Success,310061060,Success: Column value '310061060' is valid
-45678,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-45678,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.15,Success: Column value 'D36.15' is valid
-45678,SECONDARY_DIAGNOSIS_CODE,nan,Success,D36.11,Success: Column value 'D36.11' is valid
-45678,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,LONGITUDINAL_PATIENT_ID,nan,Success,45678,Success: Column value '45678' is valid
-45678,PHARMACY_PATIENT_ID,nan,Success,45678,Success: Column value '45678' is valid
-45678,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-45678,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_CONSENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-45678,PATIENT_CONSENT_DATE,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-45678,ACCESS_360_ID,nan,Success,445566,Success: Column value '445566' is valid
-45678,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-45678,PATIENT_YEAR_OF_BIRTH,nan,Success,2009,Success: Column value '2009' is valid
-45678,SP_RAW_STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-45678,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,PRIOR AUTHORIZATION APPEAL STARTED,Success: Column value 'PRIOR AUTHORIZATION APPEAL STARTED' is valid
-45678,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-45678,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-45678,SUBSTATUS_DESCRIPTION,nan,Success,PA APPEAL – STARTED,Success: Column value 'PA APPEAL – STARTED' is valid
-45678,STATUS_DATE,nan,Success,20231105 00:00:00,Success: Column value '20231105 00:00:00' is valid
-45678,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-45678,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-45678,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_NPI,nan,Success,1639243090,Success: Column value '1639243090' is valid
-45678,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-45678,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_LAST_NAME,nan,Success,PLETCHER,Success: Column value 'PLETCHER' is valid
-45678,PRESCRIBER_FIRST_NAME,nan,Success,BETH,Success: Column value 'BETH' is valid
-45678,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_ADDRESS1,nan,Success,90 BERGEN ST,Success: Column value '90 BERGEN ST' is valid
-45678,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_CITY,nan,Success,NEWARK,Success: Column value 'NEWARK' is valid
-45678,PRESCRIBER_STATE,nan,Success,NJ,Success: Column value 'NJ' is valid
-45678,PRESCRIBER_ZIP,nan,Success,7103,Success: Column value '7103' is valid
-45678,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-45678,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-45678,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_NPI,nan,Success,1467941302,Success: Column value '1467941302' is valid
-45678,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-45678,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-45678,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-45678,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-45678,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-45678,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-45678,RAW_PRIMARY_PAYER_NAME,nan,Success,CIGNA,Success: Column value 'CIGNA' is valid
-45678,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-45678,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-45678,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-45678,PRIMARY_PBM_BIN,nan,Success,610239,Success: Column value '610239' is valid
-45678,PRIMARY_PBM_PCN,nan,Success,FEPRX,Success: Column value 'FEPRX' is valid
-45678,PRIMARY_PBM_GROUP_ID,nan,Success,65006500,Success: Column value '65006500' is valid
-45678,PLAN_CODE,nan,Success,9876,Success: Column value '9876' is valid
-45678,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-45678,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-45678,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-45678,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-45678,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-45678,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-45678,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-45678,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-45678,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-45678,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-45678,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-45678,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-45678,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-45678,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-90123,TRANSACTION_DATE,nan,Success,20231105,Success: Column value '20231105' is valid
-90123,SOURCE_CODE,"ONCO360, ONESOURCE",Success,,Success: Column value 'nan' is valid
-90123,PHARMACY_TRANSACTION_ID,nan,Success,90123,Success: Column value '90123' is valid
-90123,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-90123,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-90123,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-90123,REFERRAL_DATE,nan,Success,20231105,Success: Column value '20231105' is valid
-90123,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-90123,NDC,nan,Success,310061028,Success: Column value '310061028' is valid
-90123,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-90123,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.10,Success: Column value 'D36.10' is valid
-90123,SECONDARY_DIAGNOSIS_CODE,nan,Success,D36.11,Success: Column value 'D36.11' is valid
-90123,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,LONGITUDINAL_PATIENT_ID,nan,Success,90123,Success: Column value '90123' is valid
-90123,PHARMACY_PATIENT_ID,nan,Success,90123,Success: Column value '90123' is valid
-90123,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-90123,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-90123,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
-90123,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-90123,ACCESS_360_ID,nan,Success,990011,Success: Column value '990011' is valid
-90123,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-90123,PATIENT_YEAR_OF_BIRTH,nan,Success,2014,Success: Column value '2014' is valid
-90123,SP_RAW_STATUS,nan,Success,TRANSFERRED,Success: Column value 'TRANSFERRED' is valid
-90123,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,BENEFITS DELIVERED,Success: Column value 'BENEFITS DELIVERED' is valid
-90123,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-90123,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-90123,SUBSTATUS_DESCRIPTION,nan,Success,,Success: Column value 'nan' is valid
-90123,STATUS_DATE,nan,Success,20231110 00:00:00,Success: Column value '20231110 00:00:00' is valid
-90123,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-90123,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-90123,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_NPI,nan,Success,1407936842,Success: Column value '1407936842' is valid
-90123,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-90123,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_LAST_NAME,nan,Success,CRAIGEN,Success: Column value 'CRAIGEN' is valid
-90123,PRESCRIBER_FIRST_NAME,nan,Success,WILLIAM,Success: Column value 'WILLIAM' is valid
-90123,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_ADDRESS1,nan,Success,6701 FANNIN ST,Success: Column value '6701 FANNIN ST' is valid
-90123,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_CITY,nan,Success,HOUSTON,Success: Column value 'HOUSTON' is valid
-90123,PRESCRIBER_STATE,nan,Success,TX,Success: Column value 'TX' is valid
-90123,PRESCRIBER_ZIP,nan,Success,77030,Success: Column value '77030' is valid
-90123,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-90123,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-90123,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_NPI,nan,Success,1821531898,Success: Column value '1821531898' is valid
-90123,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-90123,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-90123,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-90123,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-90123,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-90123,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-90123,RAW_PRIMARY_PAYER_NAME,nan,Success,OPTUMRX,Success: Column value 'OPTUMRX' is valid
-90123,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-90123,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-90123,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-90123,PRIMARY_PBM_BIN,nan,Success,12833,Success: Column value '12833' is valid
-90123,PRIMARY_PBM_PCN,nan,Success,FLBC,Success: Column value 'FLBC' is valid
-90123,PRIMARY_PBM_GROUP_ID,nan,Success,99999ZAL,Success: Column value '99999ZAL' is valid
-90123,PLAN_CODE,nan,Success,7654,Success: Column value '7654' is valid
-90123,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-90123,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-90123,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-90123,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-90123,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-90123,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-90123,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-90123,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-90123,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-90123,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-90123,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-90123,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-90123,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-90123,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-23456,TRANSACTION_DATE,nan,Success,20231115,Success: Column value '20231115' is valid
-23456,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-23456,PHARMACY_TRANSACTION_ID,nan,Success,23456,Success: Column value '23456' is valid
-23456,RESTATEMENT_FLAG,"Y,N",Failed,Yo,Error: Column value 'Yo' not in expected values
-23456,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-23456,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-23456,REFERRAL_DATE,nan,Success,20231101,Success: Column value '20231101' is valid
-23456,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-23456,NDC,nan,Success,310062560,Success: Column value '310062560' is valid
-23456,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-23456,PRIMARY_DIAGNOSIS_CODE,nan,Success,D33.3,Success: Column value 'D33.3' is valid
-23456,SECONDARY_DIAGNOSIS_CODE,nan,Success,D36.11,Success: Column value 'D36.11' is valid
-23456,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,LONGITUDINAL_PATIENT_ID,nan,Success,23456,Success: Column value '23456' is valid
-23456,PHARMACY_PATIENT_ID,nan,Success,23456,Success: Column value '23456' is valid
-23456,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-23456,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_CONSENT_FLAG,"Y,N",Failed,Y0,Error: Column value 'Y0' not in expected values
-23456,PATIENT_CONSENT_DATE,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-23456,ACCESS_360_ID,nan,Success,775566,Success: Column value '775566' is valid
-23456,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-23456,PATIENT_YEAR_OF_BIRTH,nan,Success,2011,Success: Column value '2011' is valid
-23456,SP_RAW_STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-23456,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL,Success: Column value 'FINANCIAL' is valid
-23456,STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-23456,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-23456,SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL - FUNDING/PAYER BARRIER,Success: Column value 'FINANCIAL - FUNDING/PAYER BARRIER' is valid
-23456,STATUS_DATE,nan,Success,20231115 00:00:00,Success: Column value '20231115 00:00:00' is valid
-23456,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-23456,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-23456,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_NPI,nan,Success,1104864263,Success: Column value '1104864263' is valid
-23456,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-23456,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_LAST_NAME,nan,Success,KHARODE,Success: Column value 'KHARODE' is valid
-23456,PRESCRIBER_FIRST_NAME,nan,Success,CHAULA,Success: Column value 'CHAULA' is valid
-23456,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_ADDRESS1,nan,Success,530 HICKSVILLE RD,Success: Column value '530 HICKSVILLE RD' is valid
-23456,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_CITY,nan,Success,BETHPAGE,Success: Column value 'BETHPAGE' is valid
-23456,PRESCRIBER_STATE,nan,Success,NY,Success: Column value 'NY' is valid
-23456,PRESCRIBER_ZIP,nan,Success,11714,Success: Column value '11714' is valid
-23456,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-23456,PRESCRIBER_SPECIALTY,nan,Success,CHILD NEUROLOGY,Success: Column value 'CHILD NEUROLOGY' is valid
-23456,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_NPI,nan,Success,1871885798,Success: Column value '1871885798' is valid
-23456,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-23456,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-23456,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-23456,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-23456,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-23456,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-23456,RAW_PRIMARY_PAYER_NAME,nan,Success,CAREMARK PPO,Success: Column value 'CAREMARK PPO' is valid
-23456,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-23456,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-23456,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-23456,PRIMARY_PBM_BIN,nan,Success,3858,Success: Column value '3858' is valid
-23456,PRIMARY_PBM_PCN,nan,Success,A4,Success: Column value 'A4' is valid
-23456,PRIMARY_PBM_GROUP_ID,nan,Success,SAMBARX,Success: Column value 'SAMBARX' is valid
-23456,PLAN_CODE,nan,Success,8765,Success: Column value '8765' is valid
-23456,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-23456,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-23456,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-23456,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-23456,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-23456,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-23456,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-23456,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-23456,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-23456,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-23456,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-23456,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-23456,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-23456,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-56789,TRANSACTION_DATE,nan,Success,20231180,Success: Column value '20231180' is valid
-56789,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-56789,PHARMACY_TRANSACTION_ID,nan,Success,56789,Success: Column value '56789' is valid
-56789,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-56789,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-56789,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-56789,REFERRAL_DATE,nan,Success,20231103,Success: Column value '20231103' is valid
-56789,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-56789,NDC,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-56789,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-56789,PRIMARY_DIAGNOSIS_CODE,nan,Success,D33.3,Success: Column value 'D33.3' is valid
-56789,SECONDARY_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,LONGITUDINAL_PATIENT_ID,nan,Success,56789,Success: Column value '56789' is valid
-56789,PHARMACY_PATIENT_ID,nan,Success,56789,Success: Column value '56789' is valid
-56789,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-56789,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_CONSENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-56789,PATIENT_CONSENT_DATE,nan,Success,20231102.0,Success: Column value '20231102.0' is valid
-56789,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-56789,ACCESS_360_ID,nan,Success,556677,Success: Column value '556677' is valid
-56789,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-56789,PATIENT_YEAR_OF_BIRTH,nan,Success,2010,Success: Column value '2010' is valid
-56789,SP_RAW_STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-56789,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL,Success: Column value 'FINANCIAL' is valid
-56789,STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-56789,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-56789,SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL - FUNDING/PAYER BARRIER,Success: Column value 'FINANCIAL - FUNDING/PAYER BARRIER' is valid
-56789,STATUS_DATE,nan,Success,20231106 00:00:00,Success: Column value '20231106 00:00:00' is valid
-56789,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-56789,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-56789,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_NPI,nan,Success,1104864263,Success: Column value '1104864263' is valid
-56789,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-56789,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_LAST_NAME,nan,Success,KHARODE,Success: Column value 'KHARODE' is valid
-56789,PRESCRIBER_FIRST_NAME,nan,Success,CHAULA,Success: Column value 'CHAULA' is valid
-56789,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_ADDRESS1,nan,Success,530 HICKSVILLE RD,Success: Column value '530 HICKSVILLE RD' is valid
-56789,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_CITY,nan,Success,BETHPAGE,Success: Column value 'BETHPAGE' is valid
-56789,PRESCRIBER_STATE,nan,Success,NY,Success: Column value 'NY' is valid
-56789,PRESCRIBER_ZIP,nan,Success,11714,Success: Column value '11714' is valid
-56789,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-56789,PRESCRIBER_SPECIALTY,nan,Success,CHILD NEUROLOGY,Success: Column value 'CHILD NEUROLOGY' is valid
-56789,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_NPI,nan,Success,1417446170,Success: Column value '1417446170' is valid
-56789,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-56789,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-56789,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-56789,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-56789,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-56789,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-56789,RAW_PRIMARY_PAYER_NAME,nan,Success,CAREMARK PPO,Success: Column value 'CAREMARK PPO' is valid
-56789,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-56789,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-56789,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-56789,PRIMARY_PBM_BIN,nan,Success,3858,Success: Column value '3858' is valid
-56789,PRIMARY_PBM_PCN,nan,Success,A4,Success: Column value 'A4' is valid
-56789,PRIMARY_PBM_GROUP_ID,nan,Success,SAMBARX,Success: Column value 'SAMBARX' is valid
-56789,PLAN_CODE,nan,Success,8765,Success: Column value '8765' is valid
-56789,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-56789,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-56789,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-56789,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-56789,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-56789,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-56789,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-56789,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-56789,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-56789,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-56789,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-56789,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-56789,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-56789,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-89012,TRANSACTION_DATE,nan,Success,20231109,Success: Column value '20231109' is valid
-89012,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-89012,PHARMACY_TRANSACTION_ID,nan,Success,89012,Success: Column value '89012' is valid
-89012,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-89012,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-89012,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-89012,REFERRAL_DATE,nan,Success,20231104,Success: Column value '20231104' is valid
-89012,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-89012,NDC,nan,Success,310062560,Success: Column value '310062560' is valid
-89012,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-89012,PRIMARY_DIAGNOSIS_CODE,nan,Success,D33.3,Success: Column value 'D33.3' is valid
-89012,SECONDARY_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,LONGITUDINAL_PATIENT_ID,nan,Success,89012,Success: Column value '89012' is valid
-89012,PHARMACY_PATIENT_ID,nan,Success,89012,Success: Column value '89012' is valid
-89012,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-89012,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_CONSENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-89012,PATIENT_CONSENT_DATE,nan,Success,20231104.0,Success: Column value '20231104.0' is valid
-89012,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-89012,ACCESS_360_ID,nan,Success,889900,Success: Column value '889900' is valid
-89012,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-89012,PATIENT_YEAR_OF_BIRTH,nan,Success,2013,Success: Column value '2013' is valid
-89012,SP_RAW_STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-89012,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL,Success: Column value 'FINANCIAL' is valid
-89012,STATUS,nan,Success,CANCELLED,Success: Column value 'CANCELLED' is valid
-89012,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-89012,SUBSTATUS_DESCRIPTION,nan,Success,FINANCIAL - FUNDING/PAYER BARRIER,Success: Column value 'FINANCIAL - FUNDING/PAYER BARRIER' is valid
-89012,STATUS_DATE,nan,Success,20231109 00:00:00,Success: Column value '20231109 00:00:00' is valid
-89012,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-89012,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-89012,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_NPI,nan,Success,1104864263,Success: Column value '1104864263' is valid
-89012,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-89012,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_LAST_NAME,nan,Success,KHARODE,Success: Column value 'KHARODE' is valid
-89012,PRESCRIBER_FIRST_NAME,nan,Success,CHAULA,Success: Column value 'CHAULA' is valid
-89012,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_ADDRESS1,nan,Success,530 HICKSVILLE RD,Success: Column value '530 HICKSVILLE RD' is valid
-89012,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_CITY,nan,Success,BETHPAGE,Success: Column value 'BETHPAGE' is valid
-89012,PRESCRIBER_STATE,nan,Success,NY,Success: Column value 'NY' is valid
-89012,PRESCRIBER_ZIP,nan,Success,11714,Success: Column value '11714' is valid
-89012,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-89012,PRESCRIBER_SPECIALTY,nan,Success,CHILD NEUROLOGY,Success: Column value 'CHILD NEUROLOGY' is valid
-89012,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_NPI,nan,Success,1679618151,Success: Column value '1679618151' is valid
-89012,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-89012,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-89012,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-89012,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-89012,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-89012,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-89012,RAW_PRIMARY_PAYER_NAME,nan,Success,CAREMARK PPO,Success: Column value 'CAREMARK PPO' is valid
-89012,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-89012,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-89012,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-89012,PRIMARY_PBM_BIN,nan,Success,3858,Success: Column value '3858' is valid
-89012,PRIMARY_PBM_PCN,nan,Success,A4,Success: Column value 'A4' is valid
-89012,PRIMARY_PBM_GROUP_ID,nan,Success,SAMBARX,Success: Column value 'SAMBARX' is valid
-89012,PLAN_CODE,nan,Success,8765,Success: Column value '8765' is valid
-89012,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-89012,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-89012,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-89012,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-89012,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-89012,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-89012,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-89012,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-89012,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-89012,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-89012,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-89012,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-89012,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-89012,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
-10,TRANSACTION_DATE,nan,Success,20231107,Success: Column value '20231107' is valid
-10,SOURCE_CODE,"ONCO360, ONESOURCE",Success,ONCO360,Success: Column value 'ONCO360' is valid
-10,PHARMACY_TRANSACTION_ID,nan,Success,10,Success: Column value '10' is valid
-10,RESTATEMENT_FLAG,"Y,N",Success,N,Success: Column value 'N' is valid
-10,TRANSACTION_TYPE,nan,Success,,Success: Column value 'nan' is valid
-10,REFERRAL_SOURCE,nan,Success,,Success: Column value 'nan' is valid
-10,REFERRAL_DATE,nan,Success,20231103,Success: Column value '20231103' is valid
-10,BRAND,nan,Success,KOSELUGO,Success: Column value 'KOSELUGO' is valid
-10,NDC,nan,Success,310061028,Success: Column value '310061028' is valid
-10,MEDICATION,nan,Success,UNKNOWN,Success: Column value 'UNKNOWN' is valid
-10,PRIMARY_DIAGNOSIS_CODE,nan,Success,D36.10,Success: Column value 'D36.10' is valid
-10,SECONDARY_DIAGNOSIS_CODE,nan,Success,D36.11,Success: Column value 'D36.11' is valid
-10,THIRD_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,FOURTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,FIFTH_DIAGNOSIS_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,LONGITUDINAL_PATIENT_ID,nan,Success,67891,Success: Column value '67891' is valid
-10,PHARMACY_PATIENT_ID,nan,Success,67890,Success: Column value '67890' is valid
-10,PHARMACY_PATIENT_ID_2,nan,Success,,Success: Column value 'nan' is valid
-10,HUB_PATIENT_ID,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_CONSENT_FLAG,"Y,N",Success,Y,Success: Column value 'Y' is valid
-10,PATIENT_CONSENT_DATE,nan,Success,20231103.0,Success: Column value '20231103.0' is valid
-10,PATIENT_CONSENT_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-10,ACCESS_360_ID,nan,Success,667788,Success: Column value '667788' is valid
-10,PATIENT_STATE,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_ZIP_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_GENDER,"M, F, U, O",Success,,Success: Column value 'nan' is valid
-10,PATIENT_YEAR_OF_BIRTH,nan,Success,2011,Success: Column value '2011' is valid
-10,SP_RAW_STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-10,SP_RAW_SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,SP_RAW_SUBSTATUS_DESCRIPTION,nan,Success,BENEFITS DELIVERED,Success: Column value 'BENEFITS DELIVERED' is valid
-10,STATUS,nan,Success,PENDING,Success: Column value 'PENDING' is valid
-10,SUBSTATUS_CODE,nan,Success,,Success: Column value 'nan' is valid
-10,SUBSTATUS_DESCRIPTION,nan,Success,BV COMPLETE,Success: Column value 'BV COMPLETE' is valid
-10,STATUS_DATE,nan,Success,20231107 00:00:00,Success: Column value '20231107 00:00:00' is valid
-10,PRIOR_AUTH_REQUIRED,"Y, N",Success,,Success: Column value 'nan' is valid
-10,PRIOR_AUTH_START_DATE,nan,Success,,Success: Column value 'nan' is valid
-10,PRIOR_AUTH_EXPIRATION_DATE,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_NPI,nan,Success,1407936842,Success: Column value '1407936842' is valid
-10,PRESCRIBER_DEA,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_SLN,nan,Success,,Success: Column value 'nan' is valid
-10,SP_PRESCRIBER_ID,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_LAST_NAME,nan,Success,CRAIGEN,Success: Column value 'CRAIGEN' is valid
-10,PRESCRIBER_FIRST_NAME,nan,Success,WILLIAM,Success: Column value 'WILLIAM' is valid
-10,PRESCRIBER_MIDDLE_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_SUFFIX,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_ADDRESS1,nan,Success,6701 FANNIN ST,Success: Column value '6701 FANNIN ST' is valid
-10,PRESCRIBER_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_CITY,nan,Success,HOUSTON,Success: Column value 'HOUSTON' is valid
-10,PRESCRIBER_STATE,nan,Success,TX,Success: Column value 'TX' is valid
-10,PRESCRIBER_ZIP,nan,Success,77030,Success: Column value '77030' is valid
-10,PRESCRIBER_PHONE,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_FAX,nan,Success,,Success: Column value 'nan' is valid
-10,PRESCRIBER_SPECIALTY,nan,Success,,Success: Column value 'nan' is valid
-10,FACILITY_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_NPI,nan,Success,1437577988,Success: Column value '1437577988' is valid
-10,SPECIALTY_PHARMACY_DEA,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_HIN,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_NCPDP,nan,Success,,Success: Column value 'nan' is valid
-10,RAW_SPECIALTY_PHARMACY_NAME,nan,Failed,,Error: Column 'RAW_SPECIALTY_PHARMACY_NAME' not found in the data file
-10,MASTERED_SPECIALTY_PHARMACY_NAME,nan,Success,ONCO360,Success: Column value 'ONCO360' is valid
-10,SPECIALTY_PHARMACY_ADDRESS1,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_ADDRESS2,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_CITY,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_STATE,nan,Success,,Success: Column value 'nan' is valid
-10,SPECIALTY_PHARMACY_ZIP,nan,Success,,Success: Column value 'nan' is valid
-10,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-10,RAW_PRIMARY_PAYER_NAME,nan,Success,OPTUMRX,Success: Column value 'OPTUMRX' is valid
-10,MASTERED_PRIMARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,MASTERED_PRIMARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-10,PRIMARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-10,PRIMARY_PBM_NAME,nan,Failed,,Error: Column 'PRIMARY_PBM_NAME' not found in the data file
-10,PRIMARY_PBM_BIN,nan,Success,12833,Success: Column value '12833' is valid
-10,PRIMARY_PBM_PCN,nan,Success,FLBC,Success: Column value 'FLBC' is valid
-10,PRIMARY_PBM_GROUP_ID,nan,Success,99999ZAL,Success: Column value '99999ZAL' is valid
-10,PLAN_CODE,nan,Success,7654,Success: Column value '7654' is valid
-10,PRIMARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,PRIMARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PAYER_NAME,nan,Failed,,Error: Column 'SECONDARY_PAYER_NAME' not found in the data file
-10,MASTERED_SECONDARY_PAYER_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,MASTERED_SECONDARY_PAYER_ID,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PAYER_TYPE,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PBM_NAME,nan,Failed,,Error: Column 'SECONDARY_PBM_NAME' not found in the data file
-10,SECONDARY_PBM_BIN,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PBM_PCN,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PBM_GROUP_ID,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PLAN_NAME,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PLAN_TYPE,nan,Success,,Success: Column value 'nan' is valid
-10,PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-10,PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PLAN_PAID_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PATIENT_RESPONSIBILITY,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PATIENT_DEDUCTIBLE,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PATIENT_COPAY,nan,Success,,Success: Column value 'nan' is valid
-10,SECONDARY_PATIENT_COINSURANCE,nan,Success,,Success: Column value 'nan' is valid
-10,OTHER_PAYER_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-10,COPAY_ASSISTANCE_AMOUNT,nan,Success,,Success: Column value 'nan' is valid
-10,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,Success,,Success: Column value 'nan' is valid
-10,RX_NUMBER,nan,Success,,Success: Column value 'nan' is valid
-10,RX_NUMBER_OF_REFILLS,nan,Success,,Success: Column value 'nan' is valid
-10,QUANTITY_DISPENSED,nan,Success,,Success: Column value 'nan' is valid
-10,UNIT_OF_MEASURE,nan,Failed,,Error: Column 'UNIT_OF_MEASURE' not found in the data file
-10,SHIP_DATE,nan,Failed,,Error: Column 'SHIP_DATE' not found in the data file
+PHARMACY_TRANSACTION_ID,Column Name,Expected Values,Value,Status,Details
+34567,TRANSACTION_DATE,nan,20231117,Pass,Column value is valid
+34567,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+34567,PHARMACY_TRANSACTION_ID,nan,34567,Pass,Column value is valid
+34567,RESTATEMENT_FLAG,"Y, N",Y,Pass,Column value is valid
+34567,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+34567,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+34567,REFERRAL_DATE,nan,20231106,Pass,Column value is valid
+34567,BRAND,nan,KOSELUGO,Pass,Column value is valid
+34567,NDC,nan,310061028,Pass,Column value is valid
+34567,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+34567,PRIMARY_DIAGNOSIS_CODE,nan,D36.10,Pass,Column value is valid
+34567,SECONDARY_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+34567,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+34567,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+34567,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+34567,LONGITUDINAL_PATIENT_ID,nan,34567,Pass,Column value is valid
+34567,PHARMACY_PATIENT_ID,nan,34567,Pass,Column value is valid
+34567,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+34567,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+34567,PATIENT_CONSENT_FLAG,"Y, N",N,Pass,Column value is valid
+34567,PATIENT_CONSENT_DATE,nan,20231102.0,Pass,Column value is valid
+34567,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+34567,ACCESS_360_ID,nan,445533,Pass,Column value is valid
+34567,PATIENT_STATE,nan,,Pass,Column value is valid
+34567,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+34567,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+34567,PATIENT_YEAR_OF_BIRTH,nan,2004,Pass,Column value is valid
+34567,SP_RAW_STATUS,nan,PENDING,Pass,Column value is valid
+34567,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+34567,SP_RAW_SUBSTATUS_DESCRIPTION,nan,BENEFITS DELIVERED,Pass,Column value is valid
+34567,STATUS,nan,PENDING,Pass,Column value is valid
+34567,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+34567,SUBSTATUS_DESCRIPTION,nan,BV COMPLETE,Pass,Column value is valid
+34567,STATUS_DATE,nan,20231117 00:00:00,Pass,Column value is valid
+34567,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+34567,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+34567,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+34567,PRESCRIBER_NPI,nan,1407936842,Pass,Column value is valid
+34567,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+34567,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+34567,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+34567,PRESCRIBER_LAST_NAME,nan,CRAIGEN,Pass,Column value is valid
+34567,PRESCRIBER_FIRST_NAME,nan,WILLIAM,Pass,Column value is valid
+34567,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+34567,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+34567,PRESCRIBER_ADDRESS1,nan,6701 FANNIN ST,Pass,Column value is valid
+34567,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+34567,PRESCRIBER_CITY,nan,HOUSTON,Pass,Column value is valid
+34567,PRESCRIBER_STATE,nan,TX,Pass,Column value is valid
+34567,PRESCRIBER_ZIP,nan,77030,Pass,Column value is valid
+34567,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+34567,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+34567,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+34567,FACILITY_NAME,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_NPI,nan,1417446170,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+34567,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+34567,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+34567,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+34567,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+34567,RAW_PRIMARY_PAYER_NAME,nan,OPTUMRX,Pass,Column value is valid
+34567,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+34567,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+34567,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+34567,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+34567,PRIMARY_PBM_BIN,nan,12833,Pass,Column value is valid
+34567,PRIMARY_PBM_PCN,nan,FLBC,Pass,Column value is valid
+34567,PRIMARY_PBM_GROUP_ID,nan,99999ZAL,Pass,Column value is valid
+34567,PLAN_CODE,nan,7654,Pass,Column value is valid
+34567,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+34567,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+34567,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+34567,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+34567,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+34567,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+34567,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+34567,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+34567,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+34567,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+34567,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+34567,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+34567,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+34567,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+34567,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+34567,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+34567,PATIENT_COPAY,nan,,Pass,Column value is valid
+34567,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+34567,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+34567,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+34567,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+34567,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+34567,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+34567,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+34567,COPAY_ASSISTANCE_AMOUNT,nan,12347900000000.0,Pass,Column value is valid
+34567,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+34567,RX_NUMBER,nan,,Pass,Column value is valid
+34567,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+34567,QUANTITY_DISPENSED,nan,10.0,Pass,Column value is valid
+34567,UNIT_OF_MEASURE,nan,,Pass,Column not found
+34567,SHIP_DATE,nan,,Pass,Column not found
+78901,TRANSACTION_DATE,nan,20231108,Pass,Column value is valid
+78901,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+78901,PHARMACY_TRANSACTION_ID,nan,78901,Pass,Column value is valid
+78901,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+78901,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+78901,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+78901,REFERRAL_DATE,nan,20231104,Pass,Column value is valid
+78901,BRAND,nan,KOSELUGO,Pass,Column value is valid
+78901,NDC,nan,310061060,Pass,Column value is valid
+78901,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+78901,PRIMARY_DIAGNOSIS_CODE,nan,D36.10,Pass,Column value is valid
+78901,SECONDARY_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+78901,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+78901,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+78901,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+78901,LONGITUDINAL_PATIENT_ID,nan,78901,Pass,Column value is valid
+78901,PHARMACY_PATIENT_ID,nan,78901,Pass,Column value is valid
+78901,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+78901,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+78901,PATIENT_CONSENT_FLAG,"Y, N",N,Pass,Column value is valid
+78901,PATIENT_CONSENT_DATE,nan,20231102.0,Pass,Column value is valid
+78901,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+78901,ACCESS_360_ID,nan,778899,Pass,Column value is valid
+78901,PATIENT_STATE,nan,,Pass,Column value is valid
+78901,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+78901,PATIENT_GENDER,"M, F, U, O",M,Pass,Column value is valid
+78901,PATIENT_YEAR_OF_BIRTH,nan,2012,Pass,Column value is valid
+78901,SP_RAW_STATUS,nan,PENDING,Pass,Column value is valid
+78901,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+78901,SP_RAW_SUBSTATUS_DESCRIPTION,nan,PRIOR AUTHORIZATION APPEAL STARTED,Pass,Column value is valid
+78901,STATUS,nan,PENDING,Pass,Column value is valid
+78901,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+78901,SUBSTATUS_DESCRIPTION,nan,PA APPEAL – STARTED,Pass,Column value is valid
+78901,STATUS_DATE,nan,20231108 00:00:00,Pass,Column value is valid
+78901,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+78901,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+78901,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+78901,PRESCRIBER_NPI,nan,1639243090,Pass,Column value is valid
+78901,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+78901,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+78901,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+78901,PRESCRIBER_LAST_NAME,nan,PLETCHER,Pass,Column value is valid
+78901,PRESCRIBER_FIRST_NAME,nan,BETH,Pass,Column value is valid
+78901,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+78901,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+78901,PRESCRIBER_ADDRESS1,nan,90 BERGEN ST,Pass,Column value is valid
+78901,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+78901,PRESCRIBER_CITY,nan,NEWARK,Pass,Column value is valid
+78901,PRESCRIBER_STATE,nan,NJ,Pass,Column value is valid
+78901,PRESCRIBER_ZIP,nan,7103,Pass,Column value is valid
+78901,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+78901,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+78901,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+78901,FACILITY_NAME,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_NPI,nan,1861935835,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+78901,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+78901,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+78901,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+78901,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+78901,RAW_PRIMARY_PAYER_NAME,nan,CIGNA,Pass,Column value is valid
+78901,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+78901,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+78901,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+78901,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+78901,PRIMARY_PBM_BIN,nan,610239,Pass,Column value is valid
+78901,PRIMARY_PBM_PCN,nan,FEPRX,Pass,Column value is valid
+78901,PRIMARY_PBM_GROUP_ID,nan,65006500,Pass,Column value is valid
+78901,PLAN_CODE,nan,9876,Pass,Column value is valid
+78901,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+78901,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+78901,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+78901,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+78901,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+78901,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+78901,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+78901,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+78901,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+78901,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+78901,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+78901,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+78901,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+78901,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+78901,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+78901,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+78901,PATIENT_COPAY,nan,,Pass,Column value is valid
+78901,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+78901,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+78901,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+78901,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+78901,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+78901,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+78901,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+78901,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+78901,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+78901,RX_NUMBER,nan,,Pass,Column value is valid
+78901,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+78901,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+78901,UNIT_OF_MEASURE,nan,,Pass,Column not found
+78901,SHIP_DATE,nan,,Pass,Column not found
+12345,TRANSACTION_DATE,nan,20231114,Pass,Column value is valid
+12345,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+12345,PHARMACY_TRANSACTION_ID,nan,12345,Pass,Column value is valid
+12345,RESTATEMENT_FLAG,"Y, N",Y,Pass,Column value is valid
+12345,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+12345,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+12345,REFERRAL_DATE,nan,20231102,Pass,Column value is valid
+12345,BRAND,nan,KOSELUGO,Pass,Column value is valid
+12345,NDC,nan,310061060,Pass,Column value is valid
+12345,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+12345,PRIMARY_DIAGNOSIS_CODE,nan,D36.15,Pass,Column value is valid
+12345,SECONDARY_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+12345,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+12345,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+12345,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+12345,LONGITUDINAL_PATIENT_ID,nan,12345,Pass,Column value is valid
+12345,PHARMACY_PATIENT_ID,nan,12345,Pass,Column value is valid
+12345,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+12345,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+12345,PATIENT_CONSENT_FLAG,"Y, N",N,Pass,Column value is valid
+12345,PATIENT_CONSENT_DATE,nan,20231102.0,Pass,Column value is valid
+12345,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+12345,ACCESS_360_ID,nan,667755,Pass,Column value is valid
+12345,PATIENT_STATE,nan,,Pass,Column value is valid
+12345,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+12345,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+12345,PATIENT_YEAR_OF_BIRTH,nan,2006,Pass,Column value is valid
+12345,SP_RAW_STATUS,nan,PENDING,Pass,Column value is valid
+12345,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+12345,SP_RAW_SUBSTATUS_DESCRIPTION,nan,PRIOR AUTHORIZATION APPEAL STARTED,Pass,Column value is valid
+12345,STATUS,nan,PENDING,Pass,Column value is valid
+12345,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+12345,SUBSTATUS_DESCRIPTION,nan,PA APPEAL – STARTED,Pass,Column value is valid
+12345,STATUS_DATE,nan,20231114 00:00:00,Pass,Column value is valid
+12345,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+12345,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+12345,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+12345,PRESCRIBER_NPI,nan,1639243090,Pass,Column value is valid
+12345,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+12345,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+12345,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+12345,PRESCRIBER_LAST_NAME,nan,PLETCHER,Pass,Column value is valid
+12345,PRESCRIBER_FIRST_NAME,nan,BETH,Pass,Column value is valid
+12345,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+12345,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+12345,PRESCRIBER_ADDRESS1,nan,90 BERGEN ST,Pass,Column value is valid
+12345,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+12345,PRESCRIBER_CITY,nan,NEWARK,Pass,Column value is valid
+12345,PRESCRIBER_STATE,nan,NJ,Pass,Column value is valid
+12345,PRESCRIBER_ZIP,nan,7103,Pass,Column value is valid
+12345,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+12345,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+12345,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+12345,FACILITY_NAME,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_NPI,nan,1679618151,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+12345,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+12345,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+12345,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+12345,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+12345,RAW_PRIMARY_PAYER_NAME,nan,CIGNA,Pass,Column value is valid
+12345,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+12345,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+12345,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+12345,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+12345,PRIMARY_PBM_BIN,nan,610239,Pass,Column value is valid
+12345,PRIMARY_PBM_PCN,nan,FEPRX,Pass,Column value is valid
+12345,PRIMARY_PBM_GROUP_ID,nan,65006500,Pass,Column value is valid
+12345,PLAN_CODE,nan,9876,Pass,Column value is valid
+12345,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+12345,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+12345,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+12345,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+12345,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+12345,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+12345,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+12345,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+12345,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+12345,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+12345,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+12345,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+12345,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+12345,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+12345,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+12345,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+12345,PATIENT_COPAY,nan,,Pass,Column value is valid
+12345,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+12345,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+12345,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+12345,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+12345,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+12345,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+12345,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+12345,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+12345,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+12345,RX_NUMBER,nan,,Pass,Column value is valid
+12345,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+12345,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+12345,UNIT_OF_MEASURE,nan,,Pass,Column not found
+12345,SHIP_DATE,nan,,Pass,Column not found
+45678,TRANSACTION_DATE,nan,20231105,Pass,Column value is valid
+45678,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+45678,PHARMACY_TRANSACTION_ID,nan,45678,Pass,Column value is valid
+45678,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+45678,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+45678,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+45678,REFERRAL_DATE,nan,20231103,Pass,Column value is valid
+45678,BRAND,nan,KOSELUGO,Pass,Column value is valid
+45678,NDC,nan,310061060,Pass,Column value is valid
+45678,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+45678,PRIMARY_DIAGNOSIS_CODE,nan,D36.15,Pass,Column value is valid
+45678,SECONDARY_DIAGNOSIS_CODE,nan,D36.11,Pass,Column value is valid
+45678,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+45678,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+45678,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+45678,LONGITUDINAL_PATIENT_ID,nan,45678,Pass,Column value is valid
+45678,PHARMACY_PATIENT_ID,nan,45678,Pass,Column value is valid
+45678,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+45678,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+45678,PATIENT_CONSENT_FLAG,"Y, N",Y,Pass,Column value is valid
+45678,PATIENT_CONSENT_DATE,nan,,Pass,Column value is valid
+45678,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+45678,ACCESS_360_ID,nan,445566,Pass,Column value is valid
+45678,PATIENT_STATE,nan,,Pass,Column value is valid
+45678,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+45678,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+45678,PATIENT_YEAR_OF_BIRTH,nan,2009,Pass,Column value is valid
+45678,SP_RAW_STATUS,nan,PENDING,Pass,Column value is valid
+45678,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+45678,SP_RAW_SUBSTATUS_DESCRIPTION,nan,PRIOR AUTHORIZATION APPEAL STARTED,Pass,Column value is valid
+45678,STATUS,nan,PENDING,Pass,Column value is valid
+45678,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+45678,SUBSTATUS_DESCRIPTION,nan,PA APPEAL – STARTED,Pass,Column value is valid
+45678,STATUS_DATE,nan,20231105 00:00:00,Pass,Column value is valid
+45678,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+45678,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+45678,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+45678,PRESCRIBER_NPI,nan,1639243090,Pass,Column value is valid
+45678,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+45678,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+45678,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+45678,PRESCRIBER_LAST_NAME,nan,PLETCHER,Pass,Column value is valid
+45678,PRESCRIBER_FIRST_NAME,nan,BETH,Pass,Column value is valid
+45678,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+45678,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+45678,PRESCRIBER_ADDRESS1,nan,90 BERGEN ST,Pass,Column value is valid
+45678,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+45678,PRESCRIBER_CITY,nan,NEWARK,Pass,Column value is valid
+45678,PRESCRIBER_STATE,nan,NJ,Pass,Column value is valid
+45678,PRESCRIBER_ZIP,nan,7103,Pass,Column value is valid
+45678,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+45678,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+45678,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+45678,FACILITY_NAME,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_NPI,nan,1467941302,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+45678,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+45678,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+45678,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+45678,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+45678,RAW_PRIMARY_PAYER_NAME,nan,CIGNA,Pass,Column value is valid
+45678,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+45678,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+45678,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+45678,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+45678,PRIMARY_PBM_BIN,nan,610239,Pass,Column value is valid
+45678,PRIMARY_PBM_PCN,nan,FEPRX,Pass,Column value is valid
+45678,PRIMARY_PBM_GROUP_ID,nan,65006500,Pass,Column value is valid
+45678,PLAN_CODE,nan,9876,Pass,Column value is valid
+45678,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+45678,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+45678,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+45678,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+45678,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+45678,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+45678,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+45678,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+45678,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+45678,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+45678,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+45678,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+45678,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+45678,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+45678,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+45678,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+45678,PATIENT_COPAY,nan,,Pass,Column value is valid
+45678,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+45678,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+45678,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+45678,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+45678,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+45678,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+45678,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+45678,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+45678,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+45678,RX_NUMBER,nan,,Pass,Column value is valid
+45678,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+45678,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+45678,UNIT_OF_MEASURE,nan,,Pass,Column not found
+45678,SHIP_DATE,nan,,Pass,Column not found
+90123,TRANSACTION_DATE,nan,20231105,Pass,Column value is valid
+90123,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+90123,PHARMACY_TRANSACTION_ID,nan,90123,Pass,Column value is valid
+90123,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+90123,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+90123,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+90123,REFERRAL_DATE,nan,20231105,Pass,Column value is valid
+90123,BRAND,nan,KOSELUGO,Pass,Column value is valid
+90123,NDC,nan,310061028,Pass,Column value is valid
+90123,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+90123,PRIMARY_DIAGNOSIS_CODE,nan,D36.10,Pass,Column value is valid
+90123,SECONDARY_DIAGNOSIS_CODE,nan,D36.11,Pass,Column value is valid
+90123,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+90123,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+90123,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+90123,LONGITUDINAL_PATIENT_ID,nan,90123,Pass,Column value is valid
+90123,PHARMACY_PATIENT_ID,nan,90123,Pass,Column value is valid
+90123,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+90123,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+90123,PATIENT_CONSENT_FLAG,"Y, N",N,Pass,Column value is valid
+90123,PATIENT_CONSENT_DATE,nan,20231102.0,Pass,Column value is valid
+90123,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+90123,ACCESS_360_ID,nan,990011,Pass,Column value is valid
+90123,PATIENT_STATE,nan,,Pass,Column value is valid
+90123,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+90123,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+90123,PATIENT_YEAR_OF_BIRTH,nan,2014,Pass,Column value is valid
+90123,SP_RAW_STATUS,nan,TRANSFERRED,Pass,Column value is valid
+90123,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+90123,SP_RAW_SUBSTATUS_DESCRIPTION,nan,BENEFITS DELIVERED,Pass,Column value is valid
+90123,STATUS,nan,PENDING,Pass,Column value is valid
+90123,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+90123,SUBSTATUS_DESCRIPTION,nan,,Pass,Column value is valid
+90123,STATUS_DATE,nan,20231110 00:00:00,Pass,Column value is valid
+90123,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+90123,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+90123,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+90123,PRESCRIBER_NPI,nan,1407936842,Pass,Column value is valid
+90123,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+90123,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+90123,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+90123,PRESCRIBER_LAST_NAME,nan,CRAIGEN,Pass,Column value is valid
+90123,PRESCRIBER_FIRST_NAME,nan,WILLIAM,Pass,Column value is valid
+90123,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+90123,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+90123,PRESCRIBER_ADDRESS1,nan,6701 FANNIN ST,Pass,Column value is valid
+90123,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+90123,PRESCRIBER_CITY,nan,HOUSTON,Pass,Column value is valid
+90123,PRESCRIBER_STATE,nan,TX,Pass,Column value is valid
+90123,PRESCRIBER_ZIP,nan,77030,Pass,Column value is valid
+90123,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+90123,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+90123,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+90123,FACILITY_NAME,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_NPI,nan,1821531898,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+90123,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+90123,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+90123,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+90123,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+90123,RAW_PRIMARY_PAYER_NAME,nan,OPTUMRX,Pass,Column value is valid
+90123,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+90123,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+90123,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+90123,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+90123,PRIMARY_PBM_BIN,nan,12833,Pass,Column value is valid
+90123,PRIMARY_PBM_PCN,nan,FLBC,Pass,Column value is valid
+90123,PRIMARY_PBM_GROUP_ID,nan,99999ZAL,Pass,Column value is valid
+90123,PLAN_CODE,nan,7654,Pass,Column value is valid
+90123,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+90123,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+90123,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+90123,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+90123,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+90123,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+90123,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+90123,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+90123,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+90123,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+90123,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+90123,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+90123,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+90123,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+90123,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+90123,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+90123,PATIENT_COPAY,nan,,Pass,Column value is valid
+90123,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+90123,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+90123,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+90123,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+90123,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+90123,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+90123,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+90123,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+90123,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+90123,RX_NUMBER,nan,,Pass,Column value is valid
+90123,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+90123,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+90123,UNIT_OF_MEASURE,nan,,Pass,Column not found
+90123,SHIP_DATE,nan,,Pass,Column not found
+23456,TRANSACTION_DATE,nan,20231115,Pass,Column value is valid
+23456,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+23456,PHARMACY_TRANSACTION_ID,nan,23456,Pass,Column value is valid
+23456,RESTATEMENT_FLAG,"Y, N",Y,Pass,Column value is valid
+23456,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+23456,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+23456,REFERRAL_DATE,nan,20231101,Pass,Column value is valid
+23456,BRAND,nan,KOSELUGO,Pass,Column value is valid
+23456,NDC,nan,310062560,Pass,Column value is valid
+23456,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+23456,PRIMARY_DIAGNOSIS_CODE,nan,D33.3,Pass,Column value is valid
+23456,SECONDARY_DIAGNOSIS_CODE,nan,D36.11,Pass,Column value is valid
+23456,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+23456,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+23456,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+23456,LONGITUDINAL_PATIENT_ID,nan,23456,Pass,Column value is valid
+23456,PHARMACY_PATIENT_ID,nan,23456,Pass,Column value is valid
+23456,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+23456,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+23456,PATIENT_CONSENT_FLAG,"Y, N",Y,Pass,Column value is valid
+23456,PATIENT_CONSENT_DATE,nan,,Pass,Column value is valid
+23456,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+23456,ACCESS_360_ID,nan,775566,Pass,Column value is valid
+23456,PATIENT_STATE,nan,,Pass,Column value is valid
+23456,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+23456,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+23456,PATIENT_YEAR_OF_BIRTH,nan,2011,Pass,Column value is valid
+23456,SP_RAW_STATUS,nan,CANCELLED,Pass,Column value is valid
+23456,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+23456,SP_RAW_SUBSTATUS_DESCRIPTION,nan,FINANCIAL,Pass,Column value is valid
+23456,STATUS,nan,CANCELLED,Pass,Column value is valid
+23456,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+23456,SUBSTATUS_DESCRIPTION,nan,FINANCIAL - FUNDING/PAYER BARRIER,Pass,Column value is valid
+23456,STATUS_DATE,nan,20231115 00:00:00,Pass,Column value is valid
+23456,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+23456,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+23456,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+23456,PRESCRIBER_NPI,nan,1104864263,Pass,Column value is valid
+23456,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+23456,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+23456,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+23456,PRESCRIBER_LAST_NAME,nan,KHARODE,Pass,Column value is valid
+23456,PRESCRIBER_FIRST_NAME,nan,CHAULA,Pass,Column value is valid
+23456,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+23456,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+23456,PRESCRIBER_ADDRESS1,nan,530 HICKSVILLE RD,Pass,Column value is valid
+23456,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+23456,PRESCRIBER_CITY,nan,BETHPAGE,Pass,Column value is valid
+23456,PRESCRIBER_STATE,nan,NY,Pass,Column value is valid
+23456,PRESCRIBER_ZIP,nan,11714,Pass,Column value is valid
+23456,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+23456,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+23456,PRESCRIBER_SPECIALTY,nan,CHILD NEUROLOGY,Pass,Column value is valid
+23456,FACILITY_NAME,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_NPI,nan,1871885798,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+23456,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+23456,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+23456,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+23456,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+23456,RAW_PRIMARY_PAYER_NAME,nan,CAREMARK PPO,Pass,Column value is valid
+23456,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+23456,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+23456,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+23456,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+23456,PRIMARY_PBM_BIN,nan,3858,Pass,Column value is valid
+23456,PRIMARY_PBM_PCN,nan,A4,Pass,Column value is valid
+23456,PRIMARY_PBM_GROUP_ID,nan,SAMBARX,Pass,Column value is valid
+23456,PLAN_CODE,nan,8765,Pass,Column value is valid
+23456,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+23456,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+23456,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+23456,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+23456,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+23456,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+23456,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+23456,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+23456,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+23456,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+23456,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+23456,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+23456,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+23456,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+23456,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+23456,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+23456,PATIENT_COPAY,nan,,Pass,Column value is valid
+23456,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+23456,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+23456,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+23456,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+23456,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+23456,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+23456,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+23456,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+23456,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+23456,RX_NUMBER,nan,,Pass,Column value is valid
+23456,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+23456,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+23456,UNIT_OF_MEASURE,nan,,Pass,Column not found
+23456,SHIP_DATE,nan,,Pass,Column not found
+56789,TRANSACTION_DATE,nan,20231108,Pass,Column value is valid
+56789,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+56789,PHARMACY_TRANSACTION_ID,nan,56789,Pass,Column value is valid
+56789,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+56789,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+56789,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+56789,REFERRAL_DATE,nan,20231103,Pass,Column value is valid
+56789,BRAND,nan,KOSELUGO,Pass,Column value is valid
+56789,NDC,nan,UNKNOWN,Pass,Column value is valid
+56789,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+56789,PRIMARY_DIAGNOSIS_CODE,nan,D33.3,Pass,Column value is valid
+56789,SECONDARY_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+56789,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+56789,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+56789,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+56789,LONGITUDINAL_PATIENT_ID,nan,56789,Pass,Column value is valid
+56789,PHARMACY_PATIENT_ID,nan,56789,Pass,Column value is valid
+56789,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+56789,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+56789,PATIENT_CONSENT_FLAG,"Y, N",N,Pass,Column value is valid
+56789,PATIENT_CONSENT_DATE,nan,20231102.0,Pass,Column value is valid
+56789,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+56789,ACCESS_360_ID,nan,556677,Pass,Column value is valid
+56789,PATIENT_STATE,nan,,Pass,Column value is valid
+56789,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+56789,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+56789,PATIENT_YEAR_OF_BIRTH,nan,2010,Pass,Column value is valid
+56789,SP_RAW_STATUS,nan,CANCELLED,Pass,Column value is valid
+56789,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+56789,SP_RAW_SUBSTATUS_DESCRIPTION,nan,FINANCIAL,Pass,Column value is valid
+56789,STATUS,nan,CANCELLED,Pass,Column value is valid
+56789,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+56789,SUBSTATUS_DESCRIPTION,nan,FINANCIAL - FUNDING/PAYER BARRIER,Pass,Column value is valid
+56789,STATUS_DATE,nan,20231106 00:00:00,Pass,Column value is valid
+56789,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+56789,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+56789,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+56789,PRESCRIBER_NPI,nan,1104864263,Pass,Column value is valid
+56789,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+56789,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+56789,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+56789,PRESCRIBER_LAST_NAME,nan,KHARODE,Pass,Column value is valid
+56789,PRESCRIBER_FIRST_NAME,nan,CHAULA,Pass,Column value is valid
+56789,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+56789,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+56789,PRESCRIBER_ADDRESS1,nan,530 HICKSVILLE RD,Pass,Column value is valid
+56789,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+56789,PRESCRIBER_CITY,nan,BETHPAGE,Pass,Column value is valid
+56789,PRESCRIBER_STATE,nan,NY,Pass,Column value is valid
+56789,PRESCRIBER_ZIP,nan,11714,Pass,Column value is valid
+56789,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+56789,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+56789,PRESCRIBER_SPECIALTY,nan,CHILD NEUROLOGY,Pass,Column value is valid
+56789,FACILITY_NAME,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_NPI,nan,1417446170,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+56789,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+56789,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+56789,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+56789,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+56789,RAW_PRIMARY_PAYER_NAME,nan,CAREMARK PPO,Pass,Column value is valid
+56789,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+56789,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+56789,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+56789,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+56789,PRIMARY_PBM_BIN,nan,3858,Pass,Column value is valid
+56789,PRIMARY_PBM_PCN,nan,A4,Pass,Column value is valid
+56789,PRIMARY_PBM_GROUP_ID,nan,SAMBARX,Pass,Column value is valid
+56789,PLAN_CODE,nan,8765,Pass,Column value is valid
+56789,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+56789,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+56789,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+56789,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+56789,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+56789,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+56789,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+56789,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+56789,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+56789,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+56789,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+56789,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+56789,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+56789,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+56789,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+56789,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+56789,PATIENT_COPAY,nan,,Pass,Column value is valid
+56789,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+56789,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+56789,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+56789,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+56789,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+56789,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+56789,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+56789,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+56789,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+56789,RX_NUMBER,nan,,Pass,Column value is valid
+56789,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+56789,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+56789,UNIT_OF_MEASURE,nan,,Pass,Column not found
+56789,SHIP_DATE,nan,,Pass,Column not found
+89012,TRANSACTION_DATE,nan,20231109,Pass,Column value is valid
+89012,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+89012,PHARMACY_TRANSACTION_ID,nan,89012,Pass,Column value is valid
+89012,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+89012,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+89012,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+89012,REFERRAL_DATE,nan,20231104,Pass,Column value is valid
+89012,BRAND,nan,KOSELUGO,Pass,Column value is valid
+89012,NDC,nan,310062560,Pass,Column value is valid
+89012,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+89012,PRIMARY_DIAGNOSIS_CODE,nan,D33.3,Pass,Column value is valid
+89012,SECONDARY_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+89012,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+89012,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+89012,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+89012,LONGITUDINAL_PATIENT_ID,nan,89012,Pass,Column value is valid
+89012,PHARMACY_PATIENT_ID,nan,89012,Pass,Column value is valid
+89012,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+89012,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+89012,PATIENT_CONSENT_FLAG,"Y, N",Y,Pass,Column value is valid
+89012,PATIENT_CONSENT_DATE,nan,20231104.0,Pass,Column value is valid
+89012,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+89012,ACCESS_360_ID,nan,889900,Pass,Column value is valid
+89012,PATIENT_STATE,nan,,Pass,Column value is valid
+89012,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+89012,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+89012,PATIENT_YEAR_OF_BIRTH,nan,2013,Pass,Column value is valid
+89012,SP_RAW_STATUS,nan,CANCELLED,Pass,Column value is valid
+89012,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+89012,SP_RAW_SUBSTATUS_DESCRIPTION,nan,FINANCIAL,Pass,Column value is valid
+89012,STATUS,nan,CANCELLED,Pass,Column value is valid
+89012,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+89012,SUBSTATUS_DESCRIPTION,nan,FINANCIAL - FUNDING/PAYER BARRIER,Pass,Column value is valid
+89012,STATUS_DATE,nan,20231109 00:00:00,Pass,Column value is valid
+89012,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+89012,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+89012,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+89012,PRESCRIBER_NPI,nan,1104864263,Pass,Column value is valid
+89012,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+89012,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+89012,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+89012,PRESCRIBER_LAST_NAME,nan,KHARODE,Pass,Column value is valid
+89012,PRESCRIBER_FIRST_NAME,nan,CHAULA,Pass,Column value is valid
+89012,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+89012,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+89012,PRESCRIBER_ADDRESS1,nan,530 HICKSVILLE RD,Pass,Column value is valid
+89012,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+89012,PRESCRIBER_CITY,nan,BETHPAGE,Pass,Column value is valid
+89012,PRESCRIBER_STATE,nan,NY,Pass,Column value is valid
+89012,PRESCRIBER_ZIP,nan,11714,Pass,Column value is valid
+89012,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+89012,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+89012,PRESCRIBER_SPECIALTY,nan,CHILD NEUROLOGY,Pass,Column value is valid
+89012,FACILITY_NAME,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_NPI,nan,1679618151,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+89012,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+89012,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+89012,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+89012,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+89012,RAW_PRIMARY_PAYER_NAME,nan,CAREMARK PPO,Pass,Column value is valid
+89012,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+89012,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+89012,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+89012,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+89012,PRIMARY_PBM_BIN,nan,3858,Pass,Column value is valid
+89012,PRIMARY_PBM_PCN,nan,A4,Pass,Column value is valid
+89012,PRIMARY_PBM_GROUP_ID,nan,SAMBARX,Pass,Column value is valid
+89012,PLAN_CODE,nan,8765,Pass,Column value is valid
+89012,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+89012,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+89012,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+89012,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+89012,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+89012,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+89012,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+89012,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+89012,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+89012,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+89012,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+89012,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+89012,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+89012,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+89012,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+89012,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+89012,PATIENT_COPAY,nan,,Pass,Column value is valid
+89012,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+89012,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+89012,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+89012,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+89012,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+89012,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+89012,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+89012,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+89012,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+89012,RX_NUMBER,nan,,Pass,Column value is valid
+89012,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+89012,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+89012,UNIT_OF_MEASURE,nan,,Pass,Column not found
+89012,SHIP_DATE,nan,,Pass,Column not found
+10,TRANSACTION_DATE,nan,20231107,Pass,Column value is valid
+10,SOURCE_CODE,"ONCO360, ONESOURCE",ONCO360,Pass,Column value is valid
+10,PHARMACY_TRANSACTION_ID,nan,10,Pass,Column value is valid
+10,RESTATEMENT_FLAG,"Y, N",N,Pass,Column value is valid
+10,TRANSACTION_TYPE,nan,,Pass,Column value is valid
+10,REFERRAL_SOURCE,nan,,Pass,Column value is valid
+10,REFERRAL_DATE,nan,20231103,Pass,Column value is valid
+10,BRAND,nan,KOSELUGO,Pass,Column value is valid
+10,NDC,nan,310061028,Pass,Column value is valid
+10,MEDICATION,nan,UNKNOWN,Pass,Column value is valid
+10,PRIMARY_DIAGNOSIS_CODE,nan,D36.10,Pass,Column value is valid
+10,SECONDARY_DIAGNOSIS_CODE,nan,D36.11,Pass,Column value is valid
+10,THIRD_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+10,FOURTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+10,FIFTH_DIAGNOSIS_CODE,nan,,Pass,Column value is valid
+10,LONGITUDINAL_PATIENT_ID,nan,67891,Pass,Column value is valid
+10,PHARMACY_PATIENT_ID,nan,67890,Pass,Column value is valid
+10,PHARMACY_PATIENT_ID_2,nan,,Pass,Column value is valid
+10,HUB_PATIENT_ID,nan,,Pass,Column value is valid
+10,PATIENT_CONSENT_FLAG,"Y, N",Y,Pass,Column value is valid
+10,PATIENT_CONSENT_DATE,nan,20231103.0,Pass,Column value is valid
+10,PATIENT_CONSENT_EXPIRATION_DATE,nan,,Pass,Column value is valid
+10,ACCESS_360_ID,nan,667788,Pass,Column value is valid
+10,PATIENT_STATE,nan,,Pass,Column value is valid
+10,PATIENT_ZIP_CODE,nan,,Pass,Column value is valid
+10,PATIENT_GENDER,"M, F, U, O",,Pass,Column value is valid
+10,PATIENT_YEAR_OF_BIRTH,nan,2011,Pass,Column value is valid
+10,SP_RAW_STATUS,nan,PENDING,Pass,Column value is valid
+10,SP_RAW_SUBSTATUS_CODE,nan,,Pass,Column value is valid
+10,SP_RAW_SUBSTATUS_DESCRIPTION,nan,BENEFITS DELIVERED,Pass,Column value is valid
+10,STATUS,nan,PENDING,Pass,Column value is valid
+10,SUBSTATUS_CODE,nan,,Pass,Column value is valid
+10,SUBSTATUS_DESCRIPTION,nan,BV COMPLETE,Pass,Column value is valid
+10,STATUS_DATE,nan,20231107 00:00:00,Pass,Column value is valid
+10,PRIOR_AUTH_REQUIRED,"Y, N",,Pass,Column value is valid
+10,PRIOR_AUTH_START_DATE,nan,,Pass,Column value is valid
+10,PRIOR_AUTH_EXPIRATION_DATE,nan,,Pass,Column value is valid
+10,PRESCRIBER_NPI,nan,1407936842,Pass,Column value is valid
+10,PRESCRIBER_DEA,nan,,Pass,Column value is valid
+10,PRESCRIBER_SLN,nan,,Pass,Column value is valid
+10,SP_PRESCRIBER_ID,nan,,Pass,Column value is valid
+10,PRESCRIBER_LAST_NAME,nan,CRAIGEN,Pass,Column value is valid
+10,PRESCRIBER_FIRST_NAME,nan,WILLIAM,Pass,Column value is valid
+10,PRESCRIBER_MIDDLE_NAME,nan,,Pass,Column value is valid
+10,PRESCRIBER_SUFFIX,nan,,Pass,Column value is valid
+10,PRESCRIBER_ADDRESS1,nan,6701 FANNIN ST,Pass,Column value is valid
+10,PRESCRIBER_ADDRESS2,nan,,Pass,Column value is valid
+10,PRESCRIBER_CITY,nan,HOUSTON,Pass,Column value is valid
+10,PRESCRIBER_STATE,nan,TX,Pass,Column value is valid
+10,PRESCRIBER_ZIP,nan,77030,Pass,Column value is valid
+10,PRESCRIBER_PHONE,nan,,Pass,Column value is valid
+10,PRESCRIBER_FAX,nan,,Pass,Column value is valid
+10,PRESCRIBER_SPECIALTY,nan,,Pass,Column value is valid
+10,FACILITY_NAME,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_NPI,nan,1437577988,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_DEA,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_HIN,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_NCPDP,nan,,Pass,Column value is valid
+10,RAW_SPECIALTY_PHARMACY_NAME,nan,,Pass,Column not found
+10,MASTERED_SPECIALTY_PHARMACY_NAME,nan,ONCO360,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_ADDRESS1,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_ADDRESS2,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_CITY,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_STATE,nan,,Pass,Column value is valid
+10,SPECIALTY_PHARMACY_ZIP,nan,,Pass,Column value is valid
+10,PRIMARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+10,RAW_PRIMARY_PAYER_NAME,nan,OPTUMRX,Pass,Column value is valid
+10,MASTERED_PRIMARY_PAYER_NAME,nan,,Pass,Column value is valid
+10,MASTERED_PRIMARY_PAYER_ID,nan,,Pass,Column value is valid
+10,PRIMARY_PAYER_TYPE,nan,,Pass,Column value is valid
+10,PRIMARY_PBM_NAME,nan,,Pass,Column not found
+10,PRIMARY_PBM_BIN,nan,12833,Pass,Column value is valid
+10,PRIMARY_PBM_PCN,nan,FLBC,Pass,Column value is valid
+10,PRIMARY_PBM_GROUP_ID,nan,99999ZAL,Pass,Column value is valid
+10,PLAN_CODE,nan,7654,Pass,Column value is valid
+10,PRIMARY_PLAN_NAME,nan,,Pass,Column value is valid
+10,PRIMARY_PLAN_TYPE,nan,,Pass,Column value is valid
+10,SECONDARY_COVERAGE_TYPE,"PHARMACY, MEDICAL, OTHER",,Pass,Column value is valid
+10,SECONDARY_PAYER_NAME,nan,,Pass,Column not found
+10,MASTERED_SECONDARY_PAYER_NAME,nan,,Pass,Column value is valid
+10,MASTERED_SECONDARY_PAYER_ID,nan,,Pass,Column value is valid
+10,SECONDARY_PAYER_TYPE,nan,,Pass,Column value is valid
+10,SECONDARY_PBM_NAME,nan,,Pass,Column not found
+10,SECONDARY_PBM_BIN,nan,,Pass,Column value is valid
+10,SECONDARY_PBM_PCN,nan,,Pass,Column value is valid
+10,SECONDARY_PBM_GROUP_ID,nan,,Pass,Column value is valid
+10,SECONDARY_PLAN_NAME,nan,,Pass,Column value is valid
+10,SECONDARY_PLAN_TYPE,nan,,Pass,Column value is valid
+10,PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+10,PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+10,PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+10,PATIENT_COPAY,nan,,Pass,Column value is valid
+10,PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+10,SECONDARY_PLAN_PAID_AMOUNT,nan,,Pass,Column value is valid
+10,SECONDARY_PATIENT_RESPONSIBILITY,nan,,Pass,Column value is valid
+10,SECONDARY_PATIENT_DEDUCTIBLE,nan,,Pass,Column value is valid
+10,SECONDARY_PATIENT_COPAY,nan,,Pass,Column value is valid
+10,SECONDARY_PATIENT_COINSURANCE,nan,,Pass,Column value is valid
+10,OTHER_PAYER_AMOUNT,nan,,Pass,Column value is valid
+10,COPAY_ASSISTANCE_AMOUNT,nan,,Pass,Column value is valid
+10,NAME_OF_TRANSFER_SPECIALTY_PHARMACY,nan,,Pass,Column value is valid
+10,RX_NUMBER,nan,,Pass,Column value is valid
+10,RX_NUMBER_OF_REFILLS,nan,,Pass,Column value is valid
+10,QUANTITY_DISPENSED,nan,,Pass,Column value is valid
+10,UNIT_OF_MEASURE,nan,,Pass,Column not found
+10,SHIP_DATE,nan,,Pass,Column not found
