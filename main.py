@@ -221,8 +221,10 @@ def expected_values_validation(config_df, data_df):
         txn_df = data_df[data_df['PHARMACY_TRANSACTION_ID'] == txn_id]
         for _, config_row in config_df.iterrows():
             col = config_row['Field Name']
+            # expected values for the current column as a string
             expected_values_str = str(
                 config_row['Expected Value/s (comma separated)']).strip('""')
+            # list containing the individual expected values after splitting and stripping the string.
             expected_values = [val.strip() for val in expected_values_str.split(
                 ',') if val.strip().lower() != 'nan']
 
@@ -275,6 +277,9 @@ def white_space_validation(df):
         txn_df = df[df['PHARMACY_TRANSACTION_ID'] == txn_id]
         for col in df.columns:
             for index, value in txn_df[col].items():
+                # if value = string and contains whitespace
+                # (isinstance(value, int) and re.search(r'^\s|\s$|\s{2,}', str(value))):
+
                 if isinstance(value, str) and re.search(r'^\s|\s$|\s{2,}', value):
                     details = "Whitespace found"
                     result_data.append({
@@ -310,6 +315,9 @@ def duplicate_keys_validation(df):
     duplicates_checked = set()
 
     for i, col_name in enumerate(column_names):
+        # This slices the list of column names starting from the next index after the current column (i + 1).
+        # This ensures that we are only checking the columns that come after the current column.
+
         if f"{col_name}.1" in column_names[i + 1:]:
             if col_name not in duplicates_checked:
                 status_list[i] = "Fail"
@@ -334,16 +342,19 @@ def duplicate_keys_validation(df):
 
 
 def maximum_length_validation(config_file, csv_file):
-    col_dtype_map = dict(zip(config_file['Field Name'].str.lower(), config_file['Data Type']))
+    col_dtype_map = dict(
+        zip(config_file['Field Name'].str.lower(), config_file['Data Type']))
+    #combines corresponding elements from two iterables into tuples
     result_data = []
 
     for txn_id, txn_df in csv_file.groupby('PHARMACY_TRANSACTION_ID'):
         for col in txn_df.columns:
             col_lower = col.lower()
-            dtype = col_dtype_map.get(col_lower)  
+            dtype = col_dtype_map.get(col_lower)
             if dtype is None:
                 error_message = f"Column not found in config"
-                result_data.append((txn_id, col, "Not Specified", "", "Pass", error_message))
+                result_data.append(
+                    (txn_id, col, "Not Specified", "", "Pass", error_message))
                 continue
 
             col_values = txn_df[col].astype(str)
@@ -354,7 +365,8 @@ def maximum_length_validation(config_file, csv_file):
 
                 if not value.strip():
                     error_message = f"Empty value in column"
-                    result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                    result_data.append(
+                        (txn_id, col, dtype, value, "Fail", error_message))
                     continue
 
                 if dtype.startswith('DATE'):
@@ -363,14 +375,16 @@ def maximum_length_validation(config_file, csv_file):
 
                     if len(value) != length or not re.match(r'^\d+$', value):
                         error_message = f"Invalid date format"
-                        result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                        result_data.append(
+                            (txn_id, col, dtype, value, "Fail", error_message))
                         continue
 
                     try:
                         datetime.strptime(value, '%Y%m%d')
                     except ValueError:
                         error_message = f"Invalid date format"
-                        result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                        result_data.append(
+                            (txn_id, col, dtype, value, "Fail", error_message))
                         continue
 
                 elif dtype.startswith('VARCHAR'):
@@ -378,31 +392,36 @@ def maximum_length_validation(config_file, csv_file):
 
                     if len(value) > length:
                         error_message = f"Exceeded length limit"
-                        result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                        result_data.append(
+                            (txn_id, col, dtype, value, "Fail", error_message))
                         continue
 
                 elif dtype.startswith('INTEGER'):
                     if not value.replace('.0', '').isnumeric() and value.strip() != '':
                         error_message = f"Invalid number format"
-                        result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                        result_data.append(
+                            (txn_id, col, dtype, value, "Fail", error_message))
                         continue
 
                 elif dtype.startswith('NUMERIC'):
                     match = re.search(r'\((\d+),(\d+)\)', dtype)
-                    
+
                     if match:
                         length, decimal_length = map(int, match.groups())
 
                         if not re.match(r'^\d+(\.\d+)?$', value):
                             error_message = f"Invalid numeric format"
-                            result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                            result_data.append(
+                                (txn_id, col, dtype, value, "Fail", error_message))
                             continue
 
-                        int_part, dec_part = value.split('.') if '.' in value else (value, '')
+                        int_part, dec_part = value.split(
+                            '.') if '.' in value else (value, '')
 
                         if len(int_part) > length or len(dec_part) > decimal_length:
                             error_message = f"Exceeded length limit or invalid decimal format"
-                            result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                            result_data.append(
+                                (txn_id, col, dtype, value, "Fail", error_message))
                             continue
 
                 elif dtype.startswith('TIMESTAMP'):
@@ -410,12 +429,15 @@ def maximum_length_validation(config_file, csv_file):
                         datetime.strptime(value, '%Y%m%d %H:%M:%S')
                     except ValueError:
                         error_message = f"Invalid timestamp format"
-                        result_data.append((txn_id, col, dtype, value, "Fail", error_message))
+                        result_data.append(
+                            (txn_id, col, dtype, value, "Fail", error_message))
                         continue
 
-                result_data.append((txn_id, col, dtype, value, "Pass", "Valid data"))
+                result_data.append(
+                    (txn_id, col, dtype, value, "Pass", "Valid data"))
 
-    validation_result_df = pd.DataFrame(result_data, columns=["PHARMACY_TRANSACTION_ID", "Column Name", "Data Type", "Value", "Status", "Details"])
+    validation_result_df = pd.DataFrame(result_data, columns=[
+                                        "PHARMACY_TRANSACTION_ID", "Column Name", "Data Type", "Value", "Status", "Details"])
 
     if validation_result_df['Status'].eq('Pass').all():
         return "All test cases passed successfully", validation_result_df
