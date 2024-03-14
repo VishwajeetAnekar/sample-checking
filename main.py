@@ -443,3 +443,69 @@ def maximum_length_validation(config_file, csv_file):
         return "All test cases passed successfully", validation_result_df
     else:
         return "Some test cases failed. Please check the output for more details", validation_result_df
+
+import pandas as pd
+import re
+
+def expected_value_validation(config_df, data_df):
+    result_rows = []
+
+    for txn_id in data_df['PHARMACY_TRANSACTION_ID'].unique():
+        txn_df = data_df[data_df['PHARMACY_TRANSACTION_ID'] == txn_id]
+        for _, config_row in config_df.iterrows():
+            col = config_row['Field Name']
+            required = config_row['Required']  # New column for required field
+
+            if required == 'Y':
+                if col not in txn_df.columns:
+                    result_rows.append({
+                        "PHARMACY_TRANSACTION_ID": txn_id,
+                        "Column Name": col,
+                        "Expected Values": None,
+                        "Status": "Fail",
+                        "Value": None,
+                        "Details": "Required field missing"
+                    })
+                    continue
+
+            expected_values_str = str(config_row['Expected Values']).strip('""')
+            expected_values = [val.strip() for val in expected_values_str.split(',') if val.strip().lower() != 'nan']
+
+            if col not in txn_df.columns:
+                result_rows.append({
+                    "PHARMACY_TRANSACTION_ID": txn_id,
+                    "Column Name": col,
+                    "Expected Values": expected_values_str,
+                    "Status": "Pass",  # Assuming if column not present, consider as pass
+                    "Value": None,
+                    "Details": "Column not found"
+                })
+                continue
+
+            for index, row in txn_df.iterrows():
+                col_value = row[col] if col in row.index else None
+                if pd.isnull(col_value) or (expected_values_str.lower() == 'nan' and col_value == ""):
+                    status = "Pass"  # Assuming if value is null or nan, consider as pass
+                    details = "Column value is valid"
+                elif expected_values and col_value not in expected_values:
+                    status = "Fail"
+                    details = "Column value is not valid"
+                else:
+                    status = "Pass"
+                    details = "Column value is valid"
+
+                result_rows.append({
+                    "PHARMACY_TRANSACTION_ID": txn_id,
+                    "Column Name": col,
+                    "Expected Values": expected_values_str,
+                    "Status": status,
+                    "Value": col_value,
+                    "Details": details
+                })
+
+    result_df = pd.DataFrame(result_rows)
+    result_df = result_df[['PHARMACY_TRANSACTION_ID', 'Column Name', 'Expected Values', 'Value', 'Status', 'Details']]
+
+    validation_result = "All values in expected columns are valid" if (result_df['Status'] == 'Pass').all() else result_df.to_string(index=False)
+
+    return result_df, validation_result
